@@ -84,7 +84,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Další příkazový řádek {ARGUMENTS} pro předání aplikaci spouštěné kanálem.</value>
+    <value>Další příkazový řádek {ARGUMENTS}, který se předává aplikaci spuštěné kanálem.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
