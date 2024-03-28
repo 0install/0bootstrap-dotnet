@@ -104,7 +104,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Afișează valoarea estimată a discului {SPACE} necesar (în bytes). Stabilește implicit și --customizable-store-path.</value>
+    <value>Afișează valoarea estimată a discului {SPACE} necesar (în bytes). Setează implicit și --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">

@@ -112,7 +112,7 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Zeigt den eingebauten Hilfe-Text an.</value>
+    <value>Zeigt den integrierten Hilfetext an.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">

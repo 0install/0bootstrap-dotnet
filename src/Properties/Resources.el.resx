@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} σε έναν κατάλογο που περιέχει πρόσθετο περιεχόμενο που θα ενσωματωθεί στον bootstrapper. Μπορείτε να δημιουργήσετε έναν τέτοιο κατάλογο χρησιμοποιώντας το '0install export'.</value>
+    <value>{PATH} σε έναν κατάλογο που περιέχει πρόσθετο περιεχόμενο που θα ενσωματωθεί στο bootstrapper. Μπορείτε να δημιουργήσετε έναν τέτοιο κατάλογο χρησιμοποιώντας το '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
