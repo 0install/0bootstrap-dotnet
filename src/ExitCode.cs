@@ -3,7 +3,7 @@
 
 using System.Net;
 
-namespace ZeroInstall.Publish.Bootstrap.Cli;
+namespace ZeroInstall.Bootstrap.Builder;
 
 /// <summary>
 /// An exit code is returned to the original caller after the application terminates, to indicate success or the reason for failure.

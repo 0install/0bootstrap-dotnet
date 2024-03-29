@@ -7,7 +7,7 @@ using NanoByte.Common;
 using NanoByte.Common.Net;
 using NanoByte.Common.Tasks;
 using NDesk.Options;
-using ZeroInstall.Publish.Bootstrap.Cli;
+using ZeroInstall.Bootstrap.Builder;
 
 ProcessUtils.SanitizeEnvironmentVariables();
 NetUtils.ApplyProxy();

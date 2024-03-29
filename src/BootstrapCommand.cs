@@ -15,15 +15,15 @@ using NanoByte.Common.Streams;
 using NanoByte.Common.Tasks;
 using NDesk.Options;
 using Vestris.ResourceLib;
+using ZeroInstall.Bootstrap.Builder.Properties;
 using ZeroInstall.Client;
 using ZeroInstall.Model;
-using ZeroInstall.Publish.Bootstrap.Cli.Properties;
 using ZeroInstall.Store.Configuration;
 using ZeroInstall.Store.Feeds;
 using ZeroInstall.Store.Icons;
 using ZeroInstall.Store.Trust;
 
-namespace ZeroInstall.Publish.Bootstrap.Cli;
+namespace ZeroInstall.Bootstrap.Builder;
 
 /// <summary>
 /// Builds a customized Zero Install Bootstrapper for running or integrating a specific feed.
