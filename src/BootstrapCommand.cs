@@ -16,7 +16,6 @@ using NanoByte.Common.Tasks;
 using NDesk.Options;
 using Vestris.ResourceLib;
 using ZeroInstall.Client;
-using ZeroInstall.DesktopIntegration;
 using ZeroInstall.Model;
 using ZeroInstall.Publish.Bootstrap.Cli.Properties;
 using ZeroInstall.Store.Configuration;
@@ -51,7 +50,10 @@ internal class BootstrapCommand
     public BootstrapCommand(IEnumerable<string> args, ITaskHandler handler)
     {
         _handler = handler;
-        _iconStore = IconStores.Cache(Config.LoadSafe(), handler);
+        _iconStore = new IconStore(
+            Locations.GetCacheDirPath("0install.net", machineWide: false, "icons"),
+            Config.LoadSafe(),
+            handler);
 
         switch (BuildOptions().Parse(args))
         {
