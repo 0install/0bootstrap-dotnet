@@ -103,7 +103,7 @@ internal class BootstrapCommand
             {
                 "V|version", () => Resources.OptionVersion, _ =>
                 {
-                    Console.WriteLine(AppInfo.Current.Name + @" " + AppInfo.Current.Version + Environment.NewLine + AppInfo.Current.Copyright + Environment.NewLine + Resources.LicenseInfo);
+                    Console.WriteLine(@"0bootstrap (.NET version) " + AppInfo.Current.Version + Environment.NewLine + AppInfo.Current.Copyright + Environment.NewLine + Resources.LicenseInfo);
                     throw new OperationCanceledException(); // Don't handle any of the other arguments
                 }
             },
