@@ -14,3 +14,6 @@
 /artifacts/
 /0bootstrap-dotnet-*.xml
 /0bootstrap-dotnet-*.tar.zst
+
+# Tests
+/test.exe

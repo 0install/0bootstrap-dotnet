@@ -19,6 +19,8 @@ jobs:
       # Build
       - name: Build
         run: .\build.ps1 ${{steps.gitversion.outputs.nuGetVersion}}
+      - name: Test
+        run: .\test.ps1 ${{steps.gitversion.outputs.nuGetVersion}}
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
