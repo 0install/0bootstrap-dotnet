@@ -152,7 +152,7 @@ internal class BootstrapCommand
         string? icon = feed.Icons.GetIcon(Icon.MimeTypeIco)?.To(_iconStore.GetFresh);
         string? splashScreen = feed.SplashScreens.GetIcon(Icon.MimeTypePng)?.To(_iconStore.GetFresh);
 
-        InitializeFromTemplate(_template ?? new("https://get.0install.net/zero-install.exe"));
+        InitializeFromTemplate(_template ?? GetDefaultTemplate(feed.NeedsTerminal));
 
         _handler.RunTask(new ActionTask(Resources.BuildingBootstrapper, () =>
         {
@@ -199,6 +199,12 @@ internal class BootstrapCommand
         stream.Position = 0;
         return stream;
     }
+
+    private Uri GetDefaultTemplate(bool needsTerminal)
+        => new(needsTerminal && _integrateArgs == null && !_customizableStorePath
+                ? "https://get.0install.net/0install.exe" // CLI
+                : "https://get.0install.net/zero-install.exe" // GUI
+        );
 
     private void InitializeFromTemplate(Uri template)
     {
