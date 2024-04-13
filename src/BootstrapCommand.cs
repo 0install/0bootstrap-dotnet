@@ -93,7 +93,7 @@ internal class BootstrapCommand
     private DirectoryInfo? _contentDir;
 
     /// <summary>Path or URI to the boostrap template executable.</summary>
-    private Uri _template = new("https://get.0install.net/zero-install.exe");
+    private Uri? _template;
 
     private OptionSet BuildOptions()
     {
@@ -152,7 +152,7 @@ internal class BootstrapCommand
         string? icon = feed.Icons.GetIcon(Icon.MimeTypeIco)?.To(_iconStore.GetFresh);
         string? splashScreen = feed.SplashScreens.GetIcon(Icon.MimeTypePng)?.To(_iconStore.GetFresh);
 
-        InitializeFromTemplate();
+        InitializeFromTemplate(_template ?? new("https://get.0install.net/zero-install.exe"));
 
         _handler.RunTask(new ActionTask(Resources.BuildingBootstrapper, () =>
         {
@@ -200,14 +200,14 @@ internal class BootstrapCommand
         return stream;
     }
 
-    private void InitializeFromTemplate()
+    private void InitializeFromTemplate(Uri template)
     {
         if (File.Exists(_outputFile) && !_force) throw new IOException(string.Format(Resources.FileAlreadyExists, _outputFile));
 
-        if (_template.IsFile)
-            _handler.RunTask(new ReadFile(_template.LocalPath, stream => stream.CopyToFile(_outputFile)));
+        if (template.IsFile)
+            _handler.RunTask(new ReadFile(template.LocalPath, stream => stream.CopyToFile(_outputFile)));
         else
-            _handler.RunTask(new DownloadFile(_template, _outputFile));
+            _handler.RunTask(new DownloadFile(template, _outputFile));
     }
 
     private void ModifyEmbeddedResources(Stream bootstrapConfig, string? splashScreenPath)
