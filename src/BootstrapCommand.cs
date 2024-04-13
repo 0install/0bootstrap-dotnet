@@ -147,9 +147,7 @@ internal class BootstrapCommand
     /// </summary>
     public void Execute()
     {
-        DownloadFeed();
-        var feed = _feedCache.GetFeed(_feedUri) ?? throw new FileNotFoundException();
-        string? keyFingerprint = _feedCache.GetSignatures(_feedUri).OfType<ValidSignature>().FirstOrDefault()?.FormatFingerprint();
+        (var feed, string? keyFingerprint) = DownloadFeed();
 
         string? icon = feed.Icons.GetIcon(Icon.MimeTypeIco)?.To(_iconStore.GetFresh);
         string? splashScreen = feed.SplashScreens.GetIcon(Icon.MimeTypePng)?.To(_iconStore.GetFresh);
@@ -164,10 +162,17 @@ internal class BootstrapCommand
         }));
     }
 
-    private void DownloadFeed()
-        => _handler.RunTask(new ActionTask(
+    private (Feed, string? keyFingerprint) DownloadFeed()
+    {
+        _handler.RunTask(new ActionTask(
             string.Format(Resources.Downloading, _feedUri.ToStringRfc()),
             () => ZeroInstallClient.Detect.SelectAsync(_feedUri, refresh: true).Wait()));
+
+        return (
+            _feedCache.GetFeed(_feedUri) ?? throw new FileNotFoundException(),
+            _feedCache.GetSignatures(_feedUri).OfType<ValidSignature>().FirstOrDefault()?.FormatFingerprint()
+        );
+    }
 
     private Stream BuildBootstrapConfig(Feed feed, string? keyFingerprint, bool customSplashScreen)
     {
