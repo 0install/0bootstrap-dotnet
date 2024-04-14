@@ -1,20 +1,13 @@
 ﻿// Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System.ComponentModel;
 using System.Globalization;
-using System.Net;
 using IniParser;
-using Mono.Cecil;
 using NanoByte.Common;
-using NanoByte.Common.Collections;
 using NanoByte.Common.Info;
-using NanoByte.Common.Net;
 using NanoByte.Common.Storage;
-using NanoByte.Common.Streams;
 using NanoByte.Common.Tasks;
 using NDesk.Options;
-using Vestris.ResourceLib;
 using ZeroInstall.Bootstrap.Builder.Properties;
 using ZeroInstall.Client;
 using ZeroInstall.Model;
@@ -26,7 +19,7 @@ using ZeroInstall.Store.Trust;
 namespace ZeroInstall.Bootstrap.Builder;
 
 /// <summary>
-/// Builds a customized Zero Install Bootstrapper for running or integrating a specific feed.
+/// Processes command-line arguments for building a customized Zero Install bootstrapper.
 /// </summary>
 internal class BootstrapCommand
 {
@@ -37,14 +30,14 @@ internal class BootstrapCommand
     /// <summary>The feed URI of the target application to bootstrap.</summary>
     private readonly FeedUri _feedUri;
 
-    /// <summary>The path of the bootstrap EXE to build.</summary>
+    /// <summary>The path of the bootstrap file to build.</summary>
     private readonly string _outputFile;
 
     /// <summary>
     /// Parses command-line arguments.
     /// </summary>
     /// <param name="args">The command-line arguments to be parsed.</param>
-    /// <param name="handler">A callback object used when the the user needs to be asked questions or informed about download and IO tasks.</param>
+    /// <param name="handler">A callback object used when the user needs to be asked questions or informed about download and IO tasks.</param>
     /// <exception cref="OperationCanceledException">The user asked to see help information, version information, etc..</exception>
     /// <exception cref="OptionException"><paramref name="args"/> contains unknown options.</exception>
     public BootstrapCommand(IEnumerable<string> args, ITaskHandler handler)
@@ -154,14 +147,13 @@ internal class BootstrapCommand
         string? icon = feed.Icons.GetIcon(Icon.MimeTypeIco)?.To(_iconStore.GetFresh);
         string? splashScreen = feed.SplashScreens.GetIcon(Icon.MimeTypePng)?.To(_iconStore.GetFresh);
 
-        InitializeFromTemplate(_template ?? GetDefaultTemplate(feed.NeedsTerminal));
+        var builder = new BootstrapBuilder(_outputFile, _handler);
+        builder.Initialize(_template ?? GetDefaultTemplate(feed.NeedsTerminal));
 
-        _handler.RunTask(new ActionTask(Resources.BuildingBootstrapper, () =>
-        {
-            using var bootstrapConfig = BuildBootstrapConfig(feed, keyFingerprint, customSplashScreen: splashScreen != null);
-            ModifyEmbeddedResources(bootstrapConfig, splashScreen);
-            if (icon != null) ReplaceIcon(icon);
-        }));
+        using var bootstrapConfig = BuildBootstrapConfig(feed, keyFingerprint, customSplashScreen: splashScreen != null);
+        builder.ModifyEmbeddedResources(bootstrapConfig, splashScreen, _contentDir);
+
+        if (icon != null) builder.ReplaceIcon(icon);
     }
 
     private (Feed, string? keyFingerprint) DownloadFeed()
@@ -175,6 +167,12 @@ internal class BootstrapCommand
             _feedCache.GetSignatures(_feedUri).OfType<ValidSignature>().FirstOrDefault()?.FormatFingerprint()
         );
     }
+
+    private Uri GetDefaultTemplate(bool needsTerminal)
+        => new(needsTerminal && _integrateArgs == null && !_customizableStorePath
+                ? "https://get.0install.net/0install.exe" // CLI
+                : "https://get.0install.net/zero-install.exe" // GUI
+        );
 
     private Stream BuildBootstrapConfig(Feed feed, string? keyFingerprint, bool customSplashScreen)
     {
@@ -200,61 +198,5 @@ internal class BootstrapCommand
             new StreamIniDataParser().WriteData(writer, iniData);
         stream.Position = 0;
         return stream;
-    }
-
-    private Uri GetDefaultTemplate(bool needsTerminal)
-        => new(needsTerminal && _integrateArgs == null && !_customizableStorePath
-                ? "https://get.0install.net/0install.exe" // CLI
-                : "https://get.0install.net/zero-install.exe" // GUI
-        );
-
-    private void InitializeFromTemplate(Uri template)
-    {
-        if (template.IsFile)
-            _handler.RunTask(new ReadFile(template.LocalPath, stream => stream.CopyToFile(_outputFile)));
-        else
-            _handler.RunTask(new DownloadFile(template, _outputFile));
-    }
-
-    private void ModifyEmbeddedResources(Stream bootstrapConfig, string? splashScreenPath)
-    {
-        using var assembly = AssemblyDefinition.ReadAssembly(_outputFile, new() {ReadWrite = true});
-        assembly.Name.Name = Path.GetFileNameWithoutExtension(_outputFile);
-
-        var resources = assembly.MainModule.Resources;
-
-        void Replace(string name, Stream stream)
-        {
-            resources.RemoveAll(x => x.Name == name);
-            resources.Add(new EmbeddedResource(name, ManifestResourceAttributes.Public, stream));
-        }
-
-        Replace("ZeroInstall.BootstrapConfig.ini", bootstrapConfig);
-
-        using var splashScreen = splashScreenPath?.To(File.OpenRead);
-        if (splashScreen != null) Replace("ZeroInstall.SplashScreen.png", splashScreen);
-
-        _contentDir?.Walk(
-            fileAction: file => resources.Add(new EmbeddedResource(
-                name: "ZeroInstall.content." + WebUtility.UrlDecode(file.RelativeTo(_contentDir).Replace(Path.DirectorySeparatorChar, '.')),
-                ManifestResourceAttributes.Public,
-                file.Open(FileMode.Open, FileAccess.Read, FileShare.Read))));
-
-        assembly.Write();
-    }
-
-    private void ReplaceIcon(string path)
-    {
-        try
-        {
-            new IconDirectoryResource(new(path)).SaveTo(_outputFile);
-        }
-        #region Error handling
-        catch (Win32Exception ex)
-        {
-            // Wrap exception since only certain exception types are allowed
-            throw new IOException(ex.Message, ex);
-        }
-        #endregion
     }
 }
