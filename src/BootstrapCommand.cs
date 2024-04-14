@@ -147,6 +147,8 @@ internal class BootstrapCommand
     /// </summary>
     public void Execute()
     {
+        if (!_force && File.Exists(_outputFile)) throw new IOException(string.Format(Resources.FileAlreadyExists, _outputFile));
+
         (var feed, string? keyFingerprint) = DownloadFeed();
 
         string? icon = feed.Icons.GetIcon(Icon.MimeTypeIco)?.To(_iconStore.GetFresh);
@@ -208,8 +210,6 @@ internal class BootstrapCommand
 
     private void InitializeFromTemplate(Uri template)
     {
-        if (File.Exists(_outputFile) && !_force) throw new IOException(string.Format(Resources.FileAlreadyExists, _outputFile));
-
         if (template.IsFile)
             _handler.RunTask(new ReadFile(template.LocalPath, stream => stream.CopyToFile(_outputFile)));
         else
