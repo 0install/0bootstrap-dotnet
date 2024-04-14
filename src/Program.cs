@@ -25,7 +25,7 @@ catch (OperationCanceledException)
 {
     return (int)ExitCode.UserCanceled;
 }
-catch (Exception ex) when (ex is ArgumentException or OptionException or KeyNotFoundException)
+catch (Exception ex) when (ex is ArgumentException or FormatException or OptionException)
 {
     handler.Error(ex);
     return (int)ExitCode.InvalidArguments;
