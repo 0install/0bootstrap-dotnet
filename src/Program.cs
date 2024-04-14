@@ -3,15 +3,12 @@
 
 using System.Net;
 using System.Security;
-using NanoByte.Common;
 using NanoByte.Common.Net;
 using NanoByte.Common.Tasks;
 using NDesk.Options;
 using ZeroInstall.Bootstrap.Builder;
 
-ProcessUtils.SanitizeEnvironmentVariables();
 NetUtils.ApplyProxy();
-ServicePointManager.DefaultConnectionLimit = 16;
 
 using var handler = new AnsiCliTaskHandler();
 
