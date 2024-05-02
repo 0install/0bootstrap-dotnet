@@ -6,7 +6,7 @@ pushd $PSScriptRoot
 if (Test-path test.exe) {rm test.exe}
 
 # Build bootstrapper
-.\0install.ps1 run --batch 0bootstrap-dotnet-$Version.xml https://apps.0install.net/utils/jq.xml test.exe
+.\0install.ps1 run --batch 0bootstrap-dotnet-$Version.xml https://apps.0install.net/utils/jq.xml test.exe --config=help_with_testing=true
 if (!(Test-path test.exe)) {throw "Failed to generate bootstrapper"}
 
 # Run bootstrapper

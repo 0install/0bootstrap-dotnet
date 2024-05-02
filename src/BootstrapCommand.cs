@@ -3,6 +3,7 @@
 
 using System.Globalization;
 using IniParser;
+using IniParser.Model;
 using NanoByte.Common;
 using NanoByte.Common.Info;
 using NanoByte.Common.Storage;
@@ -80,7 +81,7 @@ internal class BootstrapCommand
     private int? _estimatedRequiredSpace;
 
     /// <summary>Set Zero Install configuration options. Only overrides existing config files if Zero Install is not already deployed.</summary>
-    private readonly Config _config = new();
+    private readonly KeyDataCollection _config = new();
 
     /// <summary>A directory containing additional content to be embedded in the bootstrapper.</summary>
     private DirectoryInfo? _contentDir;
@@ -112,7 +113,12 @@ internal class BootstrapCommand
                     _estimatedRequiredSpace = x;
                 }
             },
-            {"c|config==", () => Resources.OptionConfig, (key, value) => _config.SetOption(key, value) },
+            {"c|config==", () => Resources.OptionConfig, (key, value) =>
+                {
+                    new Config().SetOption(key, value); // Ensure key-value combination is valid
+                    _config[key] = value; // Store raw input to allow resetting back to default values
+                }
+            },
             {"content=", () => Resources.OptionContent, x => _contentDir = new(x)},
             {"template=", () => Resources.OptionTemplate, (Uri x) => _template = x}
         };
@@ -176,22 +182,28 @@ internal class BootstrapCommand
 
     private Stream BuildBootstrapConfig(Feed feed, string? keyFingerprint, bool customSplashScreen)
     {
-        var iniData = _config.ToIniData();
-        iniData.Sections.Add(new("bootstrap")
+        var iniData = new IniData
         {
-            Keys =
+            Sections =
             {
-                ["key_fingerprint"] = keyFingerprint ?? "",
-                ["app_uri"] = _feedUri.ToStringRfc(),
-                ["app_name"] = feed.Name,
-                ["app_args"] = _appArgs ?? "",
-                ["integrate_args"] = _integrateArgs ?? "",
-                ["catalog_uri"] = _catalogUri?.ToStringRfc() ?? "",
-                ["show_app_name_below_splash_screen"] = (!customSplashScreen).ToString().ToLowerInvariant(),
-                ["customizable_store_path"] = _customizableStorePath.ToString().ToLowerInvariant(),
-                ["estimated_required_space"] = _estimatedRequiredSpace?.ToString(CultureInfo.InvariantCulture) ?? ""
+                new("global") {Keys = _config},
+                new("bootstrap")
+                {
+                    Keys =
+                    {
+                        ["key_fingerprint"] = keyFingerprint ?? "",
+                        ["app_uri"] = _feedUri.ToStringRfc(),
+                        ["app_name"] = feed.Name,
+                        ["app_args"] = _appArgs ?? "",
+                        ["integrate_args"] = _integrateArgs ?? "",
+                        ["catalog_uri"] = _catalogUri?.ToStringRfc() ?? "",
+                        ["show_app_name_below_splash_screen"] = (!customSplashScreen).ToString().ToLowerInvariant(),
+                        ["customizable_store_path"] = _customizableStorePath.ToString().ToLowerInvariant(),
+                        ["estimated_required_space"] = _estimatedRequiredSpace?.ToString(CultureInfo.InvariantCulture) ?? ""
+                    }
+                }
             }
-        });
+        };
 
         var stream = new MemoryStream();
         using (var writer = new StreamWriter(stream, EncodingUtils.Utf8, bufferSize: 1024, leaveOpen: true))
