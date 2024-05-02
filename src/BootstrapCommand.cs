@@ -31,9 +31,6 @@ internal class BootstrapCommand
     /// <summary>The feed URI of the target application to bootstrap.</summary>
     private readonly FeedUri _feedUri;
 
-    /// <summary>The path of the bootstrap file to build.</summary>
-    private readonly string _outputFile;
-
     /// <summary>
     /// Parses command-line arguments.
     /// </summary>
@@ -51,17 +48,24 @@ internal class BootstrapCommand
 
         switch (BuildOptions().Parse(args))
         {
-            case [var feedUri, var outputFile]:
+            case [var feedUri]:
                 _feedUri = new(feedUri);
-                _outputFile = Path.GetFullPath(outputFile);
+                break;
+
+            case [var feedUri, var outputFile]: // Backward compatibility
+                _feedUri = new(feedUri);
+                _outputFile = outputFile;
                 break;
 
             default:
-                throw new OptionException(string.Format(Resources.MissingArguments, "0bootstrap --help"), "");
+                throw new OptionException(string.Format(Resources.WrongNumberOfArguments, "0bootstrap --help"), "");
         }
     }
 
     #region Options
+    /// <summary>The path of the bootstrap file to build.</summary>
+    private string? _outputFile;
+
     /// <summary>Overwrite existing files.</summary>
     private bool _force;
 
@@ -102,6 +106,7 @@ internal class BootstrapCommand
                 }
             },
 
+            {"o|output=", () => Resources.OptionOutput, x => _outputFile = x},
             {"f|force", () => Resources.OptionForce, _ => _force = true},
             {"a|app-args=", () => Resources.OptionAppArgs, x => _appArgs = x},
             {"i|integrate-args=", () => Resources.OptionIntegrateArgs, x => _integrateArgs = x},
@@ -128,7 +133,7 @@ internal class BootstrapCommand
             Console.WriteLine(Resources.DescriptionBootstrap);
             Console.WriteLine();
             Console.WriteLine(Resources.Usage);
-            Console.WriteLine(@"0bootstrap [OPTIONS] FEED-URI OUTPUT-FILE");
+            Console.WriteLine(@"0bootstrap [OPTIONS] FEED-URI");
             Console.WriteLine();
             Console.WriteLine(Resources.Options);
             options.WriteOptionDescriptions(Console.Out);
@@ -146,9 +151,10 @@ internal class BootstrapCommand
     /// </summary>
     public void Execute()
     {
-        if (!_force && File.Exists(_outputFile)) throw new IOException(string.Format(Resources.FileAlreadyExists, _outputFile));
-
         (var feed, string? keyFingerprint) = DownloadFeed();
+        _outputFile ??= feed.Name + ".exe";
+
+        if (!_force && File.Exists(_outputFile)) throw new IOException(string.Format(Resources.FileAlreadyExists, _outputFile));
 
         string? icon = feed.Icons.GetIcon(Icon.MimeTypeIco)?.To(_iconStore.GetFresh);
         string? splashScreen = feed.SplashScreens.GetIcon(Icon.MimeTypePng)?.To(_iconStore.GetFresh);
@@ -160,6 +166,10 @@ internal class BootstrapCommand
         builder.ModifyEmbeddedResources(bootstrapConfig, splashScreen, _contentDir);
 
         if (icon != null) builder.ReplaceIcon(icon);
+
+        _handler.OutputLow(
+            string.Format(Resources.GeneratedFile, _outputFile),
+            string.Format(Resources.GeneratedFile, _outputFile));
     }
 
     private (Feed, string? keyFingerprint) DownloadFeed()

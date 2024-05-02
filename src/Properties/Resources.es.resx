@@ -79,10 +79,6 @@
 Puede redistribuir copias de este programa bajo los términos de la Licencia Pública General Reducida GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
-  <data name="MissingArguments" xml:space="preserve">
-    <value>Faltan argumentos. Pruebe {0}</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="OptionAppArgs" xml:space="preserve">
     <value>Línea de comandos adicional {ARGUMENTS} para pasar a la aplicación lanzada por el feed.</value>
     <comment>Automatically translated.</comment>

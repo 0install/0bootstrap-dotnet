@@ -129,12 +129,12 @@
   <data name="FileAlreadyExists" xml:space="preserve">
     <value>The file '{0}' already exists. Use --force to overwrite.</value>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Generated '{0}'</value>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>This program comes with ABSOLUTELY NO WARRANTY, to the extent permitted by law.
 You may redistribute copies of this program under the terms of the GNU Lesser General Public License.</value>
-  </data>
-  <data name="MissingArguments" xml:space="preserve">
-    <value>Missing arguments. Try {0}</value>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
     <value>Additional command-line {ARGUMENTS} to pass to the application launched by the feed.</value>
@@ -163,6 +163,9 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   <data name="OptionIntegrateArgs" xml:space="preserve">
     <value>Command-line {ARGUMENTS} to pass to '0install integrate'. Leave unset to not call '0install integrate' at all.</value>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Write the bootstrapper to {PATH}.</value>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Options:</value>
   </data>
@@ -174,5 +177,8 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Usage:</value>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Wrong number of arguments. Try {0}</value>
   </data>
 </root>

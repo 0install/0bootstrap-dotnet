@@ -96,21 +96,21 @@ namespace ZeroInstall.Bootstrap.Builder.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Generated &apos;{0}&apos;.
+        /// </summary>
+        internal static string GeneratedFile {
+            get {
+                return ResourceManager.GetString("GeneratedFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This program comes with ABSOLUTELY NO WARRANTY, to the extent permitted by law.
         ///You may redistribute copies of this program under the terms of the GNU Lesser General Public License..
         /// </summary>
         internal static string LicenseInfo {
             get {
                 return ResourceManager.GetString("LicenseInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Missing arguments. Try {0}.
-        /// </summary>
-        internal static string MissingArguments {
-            get {
-                return ResourceManager.GetString("MissingArguments", resourceCulture);
             }
         }
         
@@ -196,6 +196,15 @@ namespace ZeroInstall.Bootstrap.Builder.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Write the bootstrapper to {PATH}..
+        /// </summary>
+        internal static string OptionOutput {
+            get {
+                return ResourceManager.GetString("OptionOutput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Options:.
         /// </summary>
         internal static string Options {
@@ -228,6 +237,15 @@ namespace ZeroInstall.Bootstrap.Builder.Properties {
         internal static string Usage {
             get {
                 return ResourceManager.GetString("Usage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wrong number of arguments. Try {0}.
+        /// </summary>
+        internal static string WrongNumberOfArguments {
+            get {
+                return ResourceManager.GetString("WrongNumberOfArguments", resourceCulture);
             }
         }
     }

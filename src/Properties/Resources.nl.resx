@@ -79,10 +79,6 @@
 Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
-  <data name="MissingArguments" xml:space="preserve">
-    <value>Ontbrekende argumenten. Probeer {0}</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="OptionAppArgs" xml:space="preserve">
     <value>Extra opdrachtregel {ARGUMENTS} om door te geven aan de toepassing die door de feed wordt gestart.</value>
     <comment>Automatically translated.</comment>

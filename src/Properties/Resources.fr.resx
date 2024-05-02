@@ -79,10 +79,6 @@
 Vous pouvez redistribuer des copies de ce programme suivant les termes de la “GNU Lesser General Public License”.</value>
     <comment>Manually overriden.</comment>
   </data>
-  <data name="MissingArguments" xml:space="preserve">
-    <value>Arguments manquants. Essayer {0}</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="OptionAppArgs" xml:space="preserve">
     <value>Ligne de commande supplémentaire {ARGUMENTS} à transmettre à l'application lancée par le flux.</value>
     <comment>Automatically translated.</comment>
