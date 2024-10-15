@@ -74,6 +74,10 @@
     <value>Il file '{0}' esiste già. Usare --force per sovrascriverlo.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Generato '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Questo programma non è accompagnato da alcuna garanzia, nei limiti consentiti dalla legge.
 È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
@@ -115,6 +119,10 @@
     <value>Linea di comando {ARGUMENTS} da passare a '0install integrate'. Lasciare unset per non chiamare affatto '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Scrivere il bootstrapper su {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opzioni:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Utilizzo:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Numero errato di argomenti. Prova {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

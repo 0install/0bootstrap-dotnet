@@ -74,6 +74,10 @@
     <value>Plik '{0}' już istnieje. Użyj --force, aby nadpisać.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Wygenerowano '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Ten program nie jest objęty ABSOLUTNIE ŻADNĄ GWARANCJĄ w zakresie dozwolonym przez prawo.
 Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser General Public License.</value>
@@ -88,7 +92,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Ustaw konfigurację Zero Install {0:OPTION} na określoną {1:VALUE}. Zastępuje istniejące pliki konfiguracyjne tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
+    <value>Ustawia konfigurację Zero Install {0:OPTION} na określoną {1:VALUE}. Zastępuje istniejące pliki konfiguracyjne tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -115,6 +119,10 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <value>Wiersz poleceń {ARGUMENTS} do przekazania do '0install integrate'. Pozostaw bez ustawienia, aby w ogóle nie wywoływać '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Napisanie bootstrappera na {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opcje:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Użycie:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Nieprawidłowa liczba argumentów. Spróbuj {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

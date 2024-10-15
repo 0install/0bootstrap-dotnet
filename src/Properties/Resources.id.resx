@@ -74,6 +74,10 @@
     <value>File '{0}' sudah ada. Gunakan --force untuk menimpa.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Dibuat oleh '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Program ini hadir tanpa jaminan sama sekali, sejauh diizinkan oleh hukum.
 Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik Umum GNU Lesser.</value>
@@ -115,6 +119,10 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <value>Baris perintah {ARGUMENTS} untuk diteruskan ke '0install integrate'. Biarkan tidak diatur untuk tidak memanggil '0install integrate' sama sekali.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Tulis bootstrapper ke {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opsi:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Penggunaan:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Jumlah argumen yang salah. Mencoba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

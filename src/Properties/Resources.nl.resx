@@ -74,6 +74,10 @@
     <value>Het bestand '{0}' bestaat al. Gebruik --force om te overschrijven.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Gegenereerd '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk toegestaan.
 Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
@@ -96,7 +100,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Biedt de gebruiker de mogelijkheid om een eigen pad te kiezen voor het opslaan van implementaties.</value>
+    <value>Bied de gebruiker de mogelijkheid om een eigen pad te kiezen voor het opslaan van implementaties.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -115,6 +119,10 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <value>Opdrachtregel {ARGUMENTS} om door te geven aan '0install integrate'. Laat unset om '0install integrate' helemaal niet aan te roepen.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Schrijf de bootstrapper naar {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opties:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Gebruik:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Verkeerd aantal argumenten. Probeer {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

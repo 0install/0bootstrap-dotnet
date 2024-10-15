@@ -74,6 +74,10 @@
     <value>Το αρχείο '{0}' υπάρχει ήδη. Χρησιμοποιήστε το --force για να το αντικαταστήσετε.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Παραγωγή '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Το πρόγραμμα έρχεται με ΑΠΟΛΥΤΩΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, στο βαθμό που επιτρέπεται από το νόμο.
 Μπορείτε να αναδιανέμετε αντίγραφα του προγράμματος υπό τους όρους της GNU Lesser General Public License.</value>
@@ -115,6 +119,10 @@
     <value>Γραμμή εντολών {ARGUMENTS} για να περάσετε στο '0install integrate'. Αφήστε unset για να μην καλέσετε καθόλου το '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Γράψτε το bootstrapper στο {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Επιλογές:</value>
     <comment>Manually overriden.</comment>
@@ -130,5 +138,9 @@
   <data name="Usage" xml:space="preserve">
     <value>Χρήση:</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Λανθασμένος αριθμός επιχειρημάτων. Δοκιμάστε {0}</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>

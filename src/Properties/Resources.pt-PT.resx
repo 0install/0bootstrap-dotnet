@@ -74,6 +74,10 @@
     <value>O ficheiro '{0}' já existe. Utilize --force para o substituir.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Gerado '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Este programa vem com ABSOLUTAMENTE NENHUMA GARANTIA, até o limite permitido por lei.
 Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Public License.</value>
@@ -84,7 +88,7 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>O {URI} do catálogo para substituir o catálogo padrão. Só se aplica se a Instalação Zero ainda não tiver sido implementada.</value>
+    <value>O endereço {URI} do catálogo para substituir o catálogo padrão. Só se aplica se a Instalação Zero ainda não tiver sido implementada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -115,6 +119,10 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <value>Linha de comando {ARGUMENTS} para passar para '0install integrate'. Deixe unset para não chamar '0install integrate' de forma alguma.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Escreva o bootstrapper para {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opções:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Utilização:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Número incorreto de argumentos. Tentativa {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -74,6 +74,10 @@
     <value>Файл '{0}' уже существует. Используйте --force для перезаписи.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Создано '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Эта программа поставляется с АБСОЛЮТНОЙ НЕ ГАРАНТИЕЙ, в пределах, разрешенных законом.
 Вы можете распространять копии этой программы в соответствии с условиями GNU Lesser General Public License.</value>
@@ -115,6 +119,10 @@
     <value>Командная строка {ARGUMENTS} для передачи в '0install integrate'. Оставьте значение unset, чтобы не вызывать '0install integrate' вообще.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Напишите бутстраппер на {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Опции:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Использование:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Неправильное количество аргументов. Попробуйте {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
