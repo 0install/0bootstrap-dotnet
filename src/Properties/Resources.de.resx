@@ -74,6 +74,10 @@
     <value>Die Datei '{0}' existiert bereits. Verwenden Sie --force zum Überschreiben.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>'{0}' generiert.</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Für dieses Programm gibt es ABSOLUT KEINE GARANTIEN, soweit dies gesetzlich zulässig ist.
 Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien dieses Programmes weitergeben.</value>
@@ -115,6 +119,10 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <value>Befehlszeilen {ARGUMENTE} zur Übergabe an '0install integrate'. Lassen Sie den Wert ungesetzt, um '0install integrate' überhaupt nicht aufzurufen.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Boostrapper nach {PATH} schreiben.</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Optionen:</value>
     <comment>Manually overriden.</comment>
@@ -129,6 +137,10 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Verwendung:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Falsche Anzahl von Argumenten. Probieren Sie {0}</value>
     <comment>Manually overriden.</comment>
   </data>
 </root>

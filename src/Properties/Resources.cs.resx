@@ -74,6 +74,10 @@
     <value>Soubor '{0}' již existuje. Pro přepsání použijte --force.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Generované '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Na tento program se v rozsahu povoleném zákonem nevztahuje ABSOLUTNĚ ŽÁDNÁ ZÁRUKA.
 Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General Public License.</value>
@@ -112,7 +116,11 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Příkazový řádek {ARGUMENTS}, který se předá '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
+    <value>Příkazový řádek {ARGUMENTS}, který se předává '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Napište bootstrapper na adresu {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -129,6 +137,10 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Použití:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Špatný počet argumentů. Zkuste {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

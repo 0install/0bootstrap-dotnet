@@ -74,6 +74,10 @@
     <value>'{0}' 파일이 이미 존재합니다. 덮어쓰려면 --force를 사용합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>생성됨 '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>이 프로그램은 법이 허용하는 한도 내에서 어떠한 보증도 제공하지 않습니다.
 이 프로그램의 사본은 GNU 약소 일반 공중 사용 허가서 조건에 따라 재배포할 수 있습니다.</value>
@@ -115,6 +119,10 @@
     <value>'0설치 통합'에 전달할 명령줄 {ARGUMENTS}. '0설치 통합'을 전혀 호출하지 않으려면 설정하지 않은 상태로 둡니다.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>{PATH} 에 부트스트래퍼를 작성합니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>옵션:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@
   </data>
   <data name="Usage" xml:space="preserve">
     <value>사용법:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>인수의 개수가 잘못되었습니다. 시도 {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

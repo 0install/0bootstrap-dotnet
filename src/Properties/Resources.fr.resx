@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construit un Bootstrapper Zero Install personnalisé pour l'exécution ou l'intégration d'un flux spécifique.</value>
+    <value>Construit un Bootstrapper Zero Install personnalisé pour exécuter ou intégrer un flux spécifique.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -72,6 +72,10 @@
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
     <value>Le fichier '{0}' existe déjà. Utilisez --force pour l'écraser.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Généré '{0}'</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -112,7 +116,11 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Ligne de commande {ARGUMENTS} à transmettre à '0install integrate'. Laissez le paramètre non défini pour ne pas appeler '0install integrate' du tout.</value>
+    <value>Ligne de commande {ARGUMENTS} à transmettre à '0install integrate'. Laissez la valeur non définie pour ne pas appeler '0install integrate' du tout.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Ecrire le bootstrapper pour {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -130,5 +138,9 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
   <data name="Usage" xml:space="preserve">
     <value>Usage:</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Mauvais nombre d'arguments. Essayer {0}</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>

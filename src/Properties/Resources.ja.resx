@@ -74,6 +74,10 @@
     <value>ファイル '{0}' はすでに存在します。上書きするには --force を使用してください。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>生成された '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>このプログラムには、法律で認められている限りにおいて、まったくの無保証が付きます。
 あなたは、GNU Lesser General Public Licenseの条件の下で、このプログラムのコピーを再配布することができます。</value>
@@ -115,6 +119,10 @@
     <value>コマンドライン{ARGUMENTS} '0install integrate' に渡します。unsetのままにすると、'0install integrate'をまったく呼び出さなくなります。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>ブートストラッパーを{PATH} に書き込む。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>オプション：</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@
   </data>
   <data name="Usage" xml:space="preserve">
     <value>使い方：</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>引数の数が間違っています。試す{0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

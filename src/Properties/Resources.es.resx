@@ -74,6 +74,10 @@
     <value>El fichero '{0}' ya existe. Utilice --force para sobrescribirlo.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Generado '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Este programa no incluye ABSOLUTAMENTE NINGUNA GARANTÍA, en la medida permitida por la ley.
 Puede redistribuir copias de este programa bajo los términos de la Licencia Pública General Reducida GNU.</value>
@@ -115,6 +119,10 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <value>Línea de comandos {ARGUMENTS} para pasar a '0install integrate'. Deje sin establecer para no llamar a '0install integrate' en absoluto.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Escribe el bootstrapper a {PATH}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opciones:</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Utilización:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Número incorrecto de argumentos. Pruebe {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

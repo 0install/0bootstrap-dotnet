@@ -74,6 +74,10 @@
     <value>文件{0} 已经存在。使用 --force 进行覆盖。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>生成 '{0}'</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>在法律允许的范围内，本程序不提供任何担保。
 您可以根据 GNU 宽通用公共许可证的条款重新发布本程序的副本。</value>
@@ -115,6 +119,10 @@
     <value>命令行{ARGUMENTS} ，传递给 "0install integrate"。不设置则完全不调用 "0install integrate"。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>将引导程序写入{PATH} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>选项</value>
     <comment>Automatically translated.</comment>
@@ -129,6 +137,10 @@
   </data>
   <data name="Usage" xml:space="preserve">
     <value>使用方法</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>参数数量错误。尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -74,6 +74,10 @@
     <value>'{0}' dosyası zaten var. Üzerine yazılması için --force kullanın.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="GeneratedFile" xml:space="preserve">
+    <value>Oluşturulan '{0}'</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Bu yazılım yasaların izin verdiği ölçüde KESİNLİKLE HERHANGİ BİR GARANTİ OLMADAN sunulur.
 Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağlı kalınarak dağıtılabilir.</value>
@@ -115,6 +119,10 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <value>'0install integrate' üzerine aktarılacak komut satırı {ARGUMENTS}. '0install integrate' çağrılmaması için ayarlamadan bırakın.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionOutput" xml:space="preserve">
+    <value>Başlatıcı {PATH} içine yazılsın.</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Seçenekler:</value>
     <comment>Manually overriden.</comment>
@@ -129,6 +137,10 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Kullanım:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="WrongNumberOfArguments" xml:space="preserve">
+    <value>Değişken sayısı yanlış. {0} deneyin</value>
     <comment>Manually overriden.</comment>
   </data>
 </root>
