@@ -159,13 +159,15 @@ internal class BootstrapCommand
         string? icon = feed.Icons.GetIcon(Icon.MimeTypeIco)?.To(_iconStore.GetFresh);
         string? splashScreen = feed.SplashScreens.GetIcon(Icon.MimeTypePng)?.To(_iconStore.GetFresh);
 
-        var builder = new BootstrapBuilder(_outputFile, _handler);
+        using var builder = new BootstrapBuilder(_handler);
         builder.Initialize(_template ?? GetDefaultTemplate(feed.NeedsTerminal));
 
         using var bootstrapConfig = BuildBootstrapConfig(feed, keyFingerprint, customSplashScreen: splashScreen != null);
         builder.ModifyEmbeddedResources(bootstrapConfig, splashScreen, _contentDir);
 
         if (icon != null) builder.ReplaceIcon(icon);
+
+        builder.Complete(_outputFile);
 
         _handler.OutputLow(
             string.Format(Resources.GeneratedFile, _outputFile),

@@ -18,10 +18,11 @@ namespace ZeroInstall.Bootstrap.Builder;
 /// <summary>
 /// Builds a customized Zero Install bootstrapper for running or integrating a specific feed.
 /// </summary>
-/// <param name="outputFile">The path of the bootstrap file to build.</param>
 /// <param name="handler">A callback object used when the user needs to be asked questions or informed about download and IO tasks.</param>
-public class BootstrapBuilder(string outputFile, ITaskHandler handler)
+public class BootstrapBuilder(ITaskHandler handler) : IDisposable
 {
+    private readonly TemporaryFile _tempFile = new("0bootstrap-");
+
     /// <summary>
     /// Initializes the bootstrapper using a template file.
     /// </summary>
@@ -29,9 +30,9 @@ public class BootstrapBuilder(string outputFile, ITaskHandler handler)
     public void Initialize(Uri template)
     {
         if (template.IsFile)
-            handler.RunTask(new ReadFile(template.LocalPath, stream => stream.CopyToFile(outputFile)));
+            handler.RunTask(new ReadFile(template.LocalPath, stream => stream.CopyToFile(_tempFile)));
         else
-            handler.RunTask(new DownloadFile(template, outputFile));
+            handler.RunTask(new DownloadFile(template, _tempFile));
     }
 
     /// <summary>
@@ -43,8 +44,8 @@ public class BootstrapBuilder(string outputFile, ITaskHandler handler)
     public void ModifyEmbeddedResources(Stream bootstrapConfig, string? splashScreenPath, DirectoryInfo? contentDir)
         => handler.RunTask(new ActionTask(Resources.BuildingBootstrapper, () =>
         {
-            using var assembly = AssemblyDefinition.ReadAssembly(outputFile, parameters: new() {ReadWrite = true});
-            assembly.Name.Name = Path.GetFileNameWithoutExtension(outputFile);
+            using var assembly = AssemblyDefinition.ReadAssembly(_tempFile, parameters: new() {ReadWrite = true});
+            assembly.Name.Name = Path.GetFileNameWithoutExtension(_tempFile);
 
             var resources = assembly.MainModule.Resources;
 
@@ -71,12 +72,12 @@ public class BootstrapBuilder(string outputFile, ITaskHandler handler)
     /// <summary>
     /// Replaces the icon of the bootstrapper.
     /// </summary>
-    /// <param name="path">The path of the icon file to use.</param>
-    public void ReplaceIcon(string path)
+    /// <param name="iconPath">The path of the icon file to use.</param>
+    public void ReplaceIcon(string iconPath)
     {
         try
         {
-            new IconDirectoryResource(new(path)).SaveTo(outputFile);
+            new IconDirectoryResource(new(iconPath)).SaveTo(_tempFile);
         }
         #region Error handling
         catch (Win32Exception ex)
@@ -86,4 +87,17 @@ public class BootstrapBuilder(string outputFile, ITaskHandler handler)
         }
         #endregion
     }
+
+    /// <summary>
+    /// Finishes building the bootstrap file.
+    /// </summary>
+    /// <param name="outputPath">The path of the bootstrap file to build.</param>
+    public void Complete(string outputPath)
+        => FileUtils.Replace(_tempFile, outputPath);
+
+    /// <summary>
+    /// Deletes any incomplete file on disk.
+    /// </summary>
+    public void Dispose()
+        => _tempFile.Dispose();
 }
