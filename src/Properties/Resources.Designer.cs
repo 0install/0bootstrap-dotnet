@@ -60,6 +60,15 @@ namespace ZeroInstall.Bootstrap.Builder.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bootstrapper for {0}.
+        /// </summary>
+        internal static string BootstrapperFor {
+            get {
+                return ResourceManager.GetString("BootstrapperFor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Building bootstrapper.
         /// </summary>
         internal static string BuildingBootstrapper {

@@ -170,8 +170,8 @@ internal class BootstrapCommand
         builder.Complete(_outputFile);
 
         _handler.OutputLow(
-            string.Format(Resources.GeneratedFile, _outputFile),
-            string.Format(Resources.GeneratedFile, _outputFile));
+            title: string.Format(Resources.BootstrapperFor, feed.Name),
+            message: string.Format(Resources.GeneratedFile, _outputFile));
     }
 
     private (Feed, string? keyFingerprint) DownloadFeed()
