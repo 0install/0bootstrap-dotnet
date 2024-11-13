@@ -28,9 +28,9 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <PackageReference Include="NanoByte.Common.AnsiCli" Version="2.18.7" />
-    <PackageReference Include="ZeroInstall.Store" Version="2.25.12" />
-    <PackageReference Include="ZeroInstall.Client" Version="2.25.12" />
+    <PackageReference Include="NanoByte.Common.AnsiCli" Version="2.19.1" />
+    <PackageReference Include="ZeroInstall.Store" Version="2.26.0" />
+    <PackageReference Include="ZeroInstall.Client" Version="2.26.0" />
     <PackageReference Include="NDesk.Options.Patched" Version="0.3.2" />
     <PackageReference Include="Mono.Cecil" Version="0.11.6" />
     <PackageReference Include="Vestris.ResourceLib" Version="2.2.0" />
