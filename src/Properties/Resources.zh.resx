@@ -84,15 +84,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>额外的命令行{ARGUMENTS} ，可传递给由 feed 启动的应用程序。</value>
+    <value>附加命令行{ARGUMENTS} ，用于将信息传递给由 feed 启动的应用程序。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>取代默认目录的目录{URI} 。仅适用于尚未部署零安装的情况。</value>
+    <value>取代默认目录的目录{URI} 。仅适用于尚未部署 Zero Install 的情况。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>将 Zero Install 配置{0:OPTION} 设置为特定的{1:VALUE} 。如果尚未部署 Zero Install，则仅覆盖现有配置文件。</value>
+    <value>将 Zero Install 配置{0:OPTION} 设置为特定的{1:VALUE} 。只有在尚未部署 Zero Install 的情况下，才会覆盖现有配置文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>用户可选择自定义路径来存储实现。</value>
+    <value>为用户提供选择自定义路径的功能。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -112,7 +112,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>显示内置帮助文本</value>
+    <value>显示内置帮助文本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
@@ -132,7 +132,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>显示版本信息。</value>
+    <value>显示版本信息</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

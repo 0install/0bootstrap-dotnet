@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Construcción del bootstrapper</value>
+    <value>Construcción de bootstrapper</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construye un Bootstrapper Zero Install personalizado para ejecutar o integrar un feed específico.</value>
+    <value>Construye un Zero Install Bootstrapper personalizado para ejecutar o integrar un feed específico.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,7 +71,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>El fichero '{0}' ya existe. Utilice --force para sobrescribirlo.</value>
+    <value>El archivo '{0}' ya existe. Utilice --force para sobrescribirlo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
@@ -84,19 +84,19 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Línea de comandos adicional {ARGUMENTS} para pasar a la aplicación lanzada por el feed.</value>
+    <value>Línea de comandos adicional {ARGUMENTS} para pasar a la aplicación lanzada por la alimentación.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>El {URI} del catálogo para reemplazar el catálogo por defecto. Sólo se aplica si Zero Install no está ya desplegado.</value>
+    <value>{URI} del catálogo que sustituirá al catálogo predeterminado. Sólo se aplica si Zero Install no está ya desplegado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Establecer una configuración de Instalación Cero {0:OPTION} a un {1:VALUE} específico. Sólo anula los archivos de configuración existentes si la Instalación Cero no está ya desplegada.</value>
+    <value>Establece una configuración de Instalación Cero {0:OPTION} en un {1:VALUE} específico. Sólo anula los archivos de configuración existentes si la Instalación Cero no está ya desplegada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} a un directorio que contiene contenido adicional que se incrustará en el bootstrapper. Puede generar dicho directorio utilizando '0install export'.</value>
+    <value>{PATH} a un directorio con contenido adicional que se incrustará en el bootstrapper. Puede generar dicho directorio utilizando '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,23 +104,23 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Muestra el disco estimado {SPACE} requerido (en bytes). Establece implícitamente --customizable-store-path también.</value>
+    <value>Muestra la estimación de disco {SPACE} requerida (en bytes). También establece implícitamente --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Sobrescribir archivos existentes.</value>
+    <value>Sobrescribe archivos existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostrar el texto de ayuda incorporado.</value>
+    <value>Muestra el texto de ayuda integrado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Línea de comandos {ARGUMENTS} para pasar a '0install integrate'. Deje sin establecer para no llamar a '0install integrate' en absoluto.</value>
+    <value>Línea de comandos {ARGUMENTS} para pasar a '0install integrate'. Dejar sin definir para no llamar a '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Escribe el bootstrapper a {PATH}.</value>
+    <value>Escriba el bootstrapper en {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +128,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} o ruta al ejecutable de la plantilla boostrap. Dejar sin definir para descargar desde la ubicación por defecto.</value>
+    <value>{URI} o ruta al ejecutable de la plantilla boostrap. Dejar sin definir para descargar desde la ubicación predeterminada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

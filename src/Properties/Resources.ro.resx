@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Construirea bootstrapper-ului</value>
+    <value>Construire bootstrapper</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
@@ -92,7 +92,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Setați o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Suprascrie fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
+    <value>Setează o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Suprascrie fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -100,7 +100,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Oferiți utilizatorului posibilitatea de a alege o cale personalizată pentru stocarea implementărilor.</value>
+    <value>Oferă utilizatorului posibilitatea de a alege o cale personalizată pentru stocarea implementărilor.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -108,15 +108,15 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Suprascrieți fișierele existente.</value>
+    <value>Suprascrie fișierele existente.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Afișați textul de ajutor încorporat.</value>
+    <value>Afișează textul de ajutor încorporat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Linia de comandă {ARGUMENTS} pentru a fi transmisă către "0install integrate". Lăsați nestabilit pentru a nu apela deloc "0install integrate".</value>
+    <value>Linia de comandă {ARGUMENTS} pentru a fi transmisă către "0install integrate". Lăsați unset pentru a nu apela deloc '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -132,7 +132,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Afișarea informațiilor despre versiune.</value>
+    <value>Afișează informații despre versiune.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
