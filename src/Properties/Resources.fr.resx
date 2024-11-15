@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Construction du bootstrapper</value>
+    <value>Construction d'un bootstrapper</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construit un Bootstrapper Zero Install personnalisé pour exécuter ou intégrer un flux spécifique.</value>
+    <value>Construit un Bootstrapper Zero Install personnalisé pour l'exécution ou l'intégration d'un flux spécifique.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -88,7 +88,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>Le site {URI} du catalogue qui remplacera le catalogue par défaut. Ne s'applique que si Zero Install n'est pas déjà déployé.</value>
+    <value>{URI} du catalogue qui remplacera le catalogue par défaut. Ne s'applique que si Zero Install n'est pas déjà déployé.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -100,7 +100,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Offre à l'utilisateur la possibilité de choisir un chemin d'accès personnalisé pour le stockage des implémentations.</value>
+    <value>Permet à l'utilisateur de choisir un chemin d'accès personnalisé pour le stockage des implémentations.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -108,7 +108,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Ecraser les fichiers existants.</value>
+    <value>Écraser les fichiers existants.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -116,11 +116,11 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Ligne de commande {ARGUMENTS} à transmettre à '0install integrate'. Laissez la valeur non définie pour ne pas appeler '0install integrate' du tout.</value>
+    <value>Ligne de commande {ARGUMENTS} à transmettre à '0install integrate'. Laissez le paramètre non défini pour ne pas appeler '0install integrate' du tout.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Ecrire le bootstrapper pour {PATH}.</value>
+    <value>Écrire le bootstrapper pour {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +128,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ou le chemin d'accès à l'exécutable du modèle boostrap. Laissez ce champ vide pour télécharger à partir de l'emplacement par défaut.</value>
+    <value>{URI} ou le chemin d'accès à l'exécutable du modèle boostrap. Laisser non défini pour télécharger à partir de l'emplacement par défaut.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -140,7 +140,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Mauvais nombre d'arguments. Essayer {0}</value>
+    <value>Mauvais nombre d'arguments. Essai {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
