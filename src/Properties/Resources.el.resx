@@ -84,15 +84,15 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Πρόσθετη γραμμή εντολών {ARGUMENTS} για να μεταβιβαστεί στην εφαρμογή που εκκινείται από την τροφοδοσία.</value>
+    <value>Πρόσθετη γραμμή εντολών {ARGUMENTS} για να περάσετε στην εφαρμογή που εκκινείται από την τροφοδοσία.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>Το {URI} του καταλόγου για την αντικατάσταση του προεπιλεγμένου καταλόγου. Ισχύει μόνο εάν δεν έχει ήδη αναπτυχθεί το Zero Install.</value>
+    <value>Το {URI} του καταλόγου που θα αντικαταστήσει τον προεπιλεγμένο κατάλογο. Ισχύει μόνο αν το Zero Install δεν έχει ήδη αναπτυχθεί.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Ορίστε μια διαμόρφωση Zero Install {0:OPTION} σε ένα συγκεκριμένο {1:VALUE}. Αντικαθιστά μόνο τα υπάρχοντα αρχεία ρυθμίσεων εάν το Zero Install δεν έχει ήδη αναπτυχθεί.</value>
+    <value>Ορισμός μιας διαμόρφωσης Zero Install {0:OPTION} σε ένα συγκεκριμένο {1:VALUE}. Αντικαθιστά μόνο τα υπάρχοντα αρχεία ρυθμίσεων αν το Zero Install δεν έχει ήδη αναπτυχθεί.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Εμφάνιση της εκτιμώμενης απαιτούμενης τιμής του δίσκου {SPACE} (σε bytes). Θέτει σιωπηρά και το --customizable-store-path.</value>
+    <value>Εμφανίζει την εκτιμώμενη απαιτούμενη διεύθυνση δίσκου {SPACE} (σε bytes). Θέτει σιωπηρά και το --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -128,7 +128,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ή διαδρομή προς το εκτελέσιμο πρότυπο boostrap. Αφήστε το unset για λήψη από την προεπιλεγμένη τοποθεσία.</value>
+    <value>{URI} ή διαδρομή προς το εκτελέσιμο πρότυπο boostrap. Αφήστε την επιλογή unset για λήψη από την προεπιλεγμένη τοποθεσία.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

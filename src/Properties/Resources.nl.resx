@@ -79,7 +79,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk toegestaan.
+    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk is toegestaan.
 Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -96,11 +96,11 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} naar een map met aanvullende inhoud die moet worden ingesloten in de bootstrapper. Je kunt zo'n map genereren met '0install export'.</value>
+    <value>{PATH} naar een map met aanvullende inhoud die in de bootstrapper moet worden ingesloten. Je kunt zo'n map genereren met '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Bied de gebruiker de mogelijkheid om een eigen pad te kiezen voor het opslaan van implementaties.</value>
+    <value>Biedt de gebruiker de mogelijkheid om een eigen pad te kiezen voor het opslaan van implementaties.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -112,11 +112,11 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Toon de ingebouwde helptekst.</value>
+    <value>De ingebouwde helptekst weergeven.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Opdrachtregel {ARGUMENTS} om door te geven aan '0install integrate'. Laat unset om '0install integrate' helemaal niet aan te roepen.</value>
+    <value>Command-line {ARGUMENTS} om door te geven aan '0install integrate'. Laat unset om '0install integrate' helemaal niet aan te roepen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -128,7 +128,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} of pad naar het uitvoerbare bestand van het boostrap-sjabloon. Laat unset om te downloaden van de standaard locatie.</value>
+    <value>{URI} of het pad naar de boostrap template executable. Laat unset om te downloaden van de standaard locatie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

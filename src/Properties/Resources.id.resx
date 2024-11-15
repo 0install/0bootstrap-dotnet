@@ -80,7 +80,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Program ini hadir tanpa jaminan sama sekali, sejauh diizinkan oleh hukum.
-Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik Umum GNU Lesser.</value>
+Anda dapat menyebarluaskan salinan program ini di bawah persyaratan Lisensi Publik Umum GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
@@ -96,7 +96,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} ke direktori yang berisi konten tambahan yang akan disematkan pada bootstrapper. Anda dapat membuat direktori seperti itu dengan menggunakan '0install export'.</value>
+    <value>{PATH} ke direktori yang berisi konten tambahan yang akan disematkan dalam bootstrapper. Anda dapat membuat direktori seperti itu dengan menggunakan '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,7 +104,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Menampilkan perkiraan disk {SPACE} yang dibutuhkan (dalam byte). Secara implisit juga mengatur --customizable-store-path.</value>
+    <value>Menampilkan perkiraan disk {SPACE} yang dibutuhkan (dalam byte). Secara implisit juga menetapkan --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -140,7 +140,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Jumlah argumen yang salah. Mencoba {0}</value>
+    <value>Jumlah argumen yang salah. Coba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

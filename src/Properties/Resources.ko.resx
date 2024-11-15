@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>부트스트래퍼 구축</value>
+    <value>부트스트래퍼 빌드</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>생성됨 '{0}'</value>
+    <value>생성된 '{0}'</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -96,11 +96,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} 를 부트스트랩퍼에 포함할 추가 콘텐츠가 포함된 디렉터리로 내보내야 합니다. 이러한 디렉토리는 '0install export'를 사용하여 생성할 수 있습니다.</value>
+    <value>{PATH} 를 부트스트랩퍼에 포함할 추가 콘텐츠가 포함된 디렉터리로 내보냅니다. 이러한 디렉토리는 '0install export'를 사용하여 생성할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>구현을 저장하기 위한 사용자 지정 경로를 선택할 수 있도록 사용자에게 제공합니다.</value>
+    <value>사용자에게 구현을 저장하기 위한 사용자 지정 경로를 선택할 수 있도록 합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -116,7 +116,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>'0설치 통합'에 전달할 명령줄 {ARGUMENTS}. '0설치 통합'을 전혀 호출하지 않으려면 설정하지 않은 상태로 둡니다.</value>
+    <value>'0install 통합'에 전달할 명령줄 {ARGUMENTS}. '0install integrate'를 전혀 호출하지 않으려면 설정하지 않은 상태로 둡니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -140,7 +140,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>인수의 개수가 잘못되었습니다. 시도 {0}</value>
+    <value>인자 수가 잘못되었습니다. Try {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

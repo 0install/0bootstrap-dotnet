@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Sestaví přizpůsobený zaváděcí program Zero Install pro spuštění nebo integraci konkrétního kanálu.</value>
+    <value>Sestaví přizpůsobený zaváděcí program Zero Install Bootstrapper pro spuštění nebo integraci konkrétního kanálu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -75,36 +75,36 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Generované '{0}'</value>
+    <value>Generováno '{0}'</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Na tento program se v rozsahu povoleném zákonem nevztahuje ABSOLUTNĚ ŽÁDNÁ ZÁRUKA.
-Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General Public License.</value>
+Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Další příkazový řádek {ARGUMENTS}, který se předává aplikaci spuštěné kanálem.</value>
+    <value>Další příkazový řádek {ARGUMENTS}, který se předá aplikaci spuštěné pomocí feedu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>Katalog {URI}, který nahradí výchozí katalog. Platí pouze v případě, že nulová instalace ještě není nasazena.</value>
+    <value>{URI} katalogu, který nahradí výchozí katalog. Platí pouze v případě, že Zero Install ještě není nasazen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Nastavení konfigurace nulové instalace {0:OPTION} na konkrétní {1:VALUE}. Přepisuje pouze existující konfigurační soubory, pokud ještě není Zero Install nasazen.</value>
+    <value>Nastavení konfigurace nulové instalace {0:OPTION} na konkrétní {1:VALUE}. Přepisuje pouze existující konfigurační soubory, pokud Zero Install ještě není nasazen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} do adresáře obsahujícího další obsah, který má být vložen do bootstrapperu. Takový adresář můžete vygenerovat pomocí příkazu '0install export'.</value>
+    <value>{PATH} do adresáře obsahujícího další obsah, který má být vložen do bootstrapperu. Takový adresář můžete vytvořit pomocí příkazu '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Nabídněte uživateli možnost zvolit si vlastní cestu pro ukládání implementací.</value>
+    <value>Nabízí uživateli možnost zvolit si vlastní cestu pro ukládání implementací.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Zobrazení odhadované potřeby disku {SPACE} (v bytech). Implicitně nastavuje také --customizable-store-path.</value>
+    <value>Zobrazí odhadovanou potřebu disku {SPACE} (v bytech). Implicitně nastavuje také --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -112,11 +112,11 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Zobrazení vestavěného textu nápovědy.</value>
+    <value>Zobrazí vestavěný text nápovědy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Příkazový řádek {ARGUMENTS}, který se předává '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
+    <value>Příkazový řádek {ARGUMENTS}, který se předává příkazu '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">

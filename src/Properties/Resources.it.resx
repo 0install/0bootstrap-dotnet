@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Costruisce un Bootstrapper Zero Install personalizzato per l'esecuzione o l'integrazione di un feed specifico.</value>
+    <value>Costruisce un bootstrapper di installazione zero personalizzato per l'esecuzione o l'integrazione di un feed specifico.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -84,7 +84,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Linea di comando aggiuntiva {ARGUMENTS} da passare all'applicazione lanciata dal feed.</value>
+    <value>{ARGUMENTS} da passare all'applicazione lanciata dal feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -92,11 +92,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Imposta una configurazione di Zero Install {0:OPTION} su uno specifico {1:VALUE}. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già stato distribuito.</value>
+    <value>Imposta una configurazione di Zero Install {0:OPTION} a uno specifico {1:VALUE}. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già distribuito.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} a una cartella contenente contenuti aggiuntivi da incorporare nel bootstrapper. È possibile generare tale directory usando '0install export'.</value>
+    <value>{PATH} a una directory contenente contenuti aggiuntivi da incorporare nel bootstrapper. È possibile generare tale directory usando '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Sovrascrittura dei file esistenti.</value>
+    <value>Sovrascrive i file esistenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -132,7 +132,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Visualizzazione delle informazioni sulla versione.</value>
+    <value>Visualizza le informazioni sulla versione.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -79,7 +79,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Ten program nie jest objęty ABSOLUTNIE ŻADNĄ GWARANCJĄ w zakresie dozwolonym przez prawo.
+    <value>Ten program nie jest objęty ABSOLUTNIE ŻADNĄ GWARANCJĄ, w zakresie dozwolonym przez prawo.
 Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -88,7 +88,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} katalogu, który zastąpi katalog domyślny. Dotyczy tylko sytuacji, gdy Zero Install nie zostało jeszcze wdrożone.</value>
+    <value>{URI} katalogu, który ma zastąpić katalog domyślny. Ma zastosowanie tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -96,7 +96,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} do katalogu zawierającego dodatkową zawartość, która zostanie osadzona w bootstrapperze. Taki katalog można wygenerować za pomocą polecenia "0install export".</value>
+    <value>{PATH} do katalogu zawierającego dodatkową zawartość do osadzenia w bootstrapperze. Taki katalog można wygenerować za pomocą polecenia "0install export".</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -108,7 +108,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Nadpisywanie istniejących plików.</value>
+    <value>Nadpisuje istniejące pliki.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -116,11 +116,11 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Wiersz poleceń {ARGUMENTS} do przekazania do '0install integrate'. Pozostaw bez ustawienia, aby w ogóle nie wywoływać '0install integrate'.</value>
+    <value>Wiersz poleceń {ARGUMENTS} do przekazania do '0install integrate'. Pozostaw unset, aby w ogóle nie wywoływać '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Napisanie bootstrappera na {PATH}.</value>
+    <value>Napisz bootstrapper do {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -132,11 +132,11 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Wyświetlanie informacji o wersji.</value>
+    <value>Wyświetla informacje o wersji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Użycie:</value>
+    <value>Zastosowanie:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
