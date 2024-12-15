@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construiește un Bootstrapper Zero Install personalizat pentru rularea sau integrarea unui anumit feed.</value>
+    <value>Construiește un Bootstrapper Zero Install personalizat pentru rularea sau integrarea unui feed specific.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -92,7 +92,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Setează o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Suprascrie fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
+    <value>Setează o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Supraînlocuiește fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">

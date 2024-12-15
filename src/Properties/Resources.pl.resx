@@ -96,7 +96,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} do katalogu zawierającego dodatkową zawartość do osadzenia w bootstrapperze. Taki katalog można wygenerować za pomocą polecenia "0install export".</value>
+    <value>{PATH} do katalogu zawierającego dodatkową zawartość, która zostanie osadzona w bootstrapperze. Taki katalog można wygenerować za pomocą polecenia "0install export".</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
