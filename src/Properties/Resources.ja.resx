@@ -80,7 +80,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>このプログラムには、法律で認められている限りにおいて、まったくの無保証が付されています。
-あなたは、GNU Lesser General Public Licenseの条項に従って、このプログラムのコピーを再配布することができます。</value>
+あなたは、GNU Lesser General Public Licenseの条件の下で、このプログラムのコピーを再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
@@ -120,7 +120,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>ブートストラッパーを{PATH} に書く。</value>
+    <value>{PATH} にブートストラッパーを記述する。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
