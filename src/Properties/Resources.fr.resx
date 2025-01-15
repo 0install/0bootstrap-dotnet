@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construit un Zero Install Bootstrapper personnalisé pour l'exécution ou l'intégration d'un flux spécifique.</value>
+    <value>Construit un Bootstrapper Zero Install personnalisé pour l'exécution ou l'intégration d'un flux spécifique.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
