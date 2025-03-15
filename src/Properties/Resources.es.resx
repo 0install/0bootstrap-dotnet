@@ -116,7 +116,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Línea de comandos {ARGUMENTS} para pasar a '0install integrate'. Dejar sin definir para no llamar a '0install integrate'.</value>
+    <value>Línea de comandos {ARGUMENTS} para pasar a '0install integrate'. Deje sin establecer para no llamar a '0install integrate' en absoluto.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
