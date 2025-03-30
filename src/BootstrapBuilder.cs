@@ -70,6 +70,42 @@ public class BootstrapBuilder(ITaskHandler handler) : IDisposable
         }));
 
     /// <summary>
+    /// Replaces the metadata of the bootstrapper.
+    /// </summary>
+    /// <param name="appName">The name of the app the bootstrapper is for.</param>
+    /// <param name="fileName">The final file name of the bootstrapper being built.</param>
+    /// <exception cref="IOException"></exception>
+    public void ReplaceMetadata(string appName, string fileName)
+    {
+        try
+        {
+            StringTableEntry.ConsiderPaddingForLength = true;
+
+            var versionResource = new VersionResource();
+            versionResource.LoadFrom(_tempFile);
+            versionResource.Language = ResourceUtil.NEUTRALLANGID;
+            versionResource.ProductVersion = "1.0.0.0";
+
+            var stringFileInfo = (StringFileInfo)versionResource["StringFileInfo"];
+            stringFileInfo["ProductName"] = appName;
+            stringFileInfo["ProductVersion"] = versionResource.ProductVersion;
+            stringFileInfo["FileDescription"] = $"Bootstrapper for {appName}";
+            stringFileInfo["OriginalFilename"] = fileName;
+            stringFileInfo["Copyright"] = "";
+            stringFileInfo["Company"] = "";
+
+            versionResource.SaveTo(_tempFile);
+        }
+        #region Error handling
+        catch (Win32Exception ex)
+        {
+            // Wrap exception since only certain exception types are allowed
+            throw new IOException(ex.Message, ex);
+        }
+        #endregion
+    }
+
+    /// <summary>
     /// Replaces the icon of the bootstrapper.
     /// </summary>
     /// <param name="iconPath">The path of the icon file to use.</param>
