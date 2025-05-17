@@ -8,6 +8,7 @@ using NanoByte.Common;
 using NanoByte.Common.Info;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
+using NanoByte.Common.Threading;
 using NDesk.Options;
 using ZeroInstall.Bootstrap.Builder.Properties;
 using ZeroInstall.Client;
@@ -179,7 +180,7 @@ internal class BootstrapCommand
     {
         _handler.RunTask(new ActionTask(
             string.Format(Resources.Downloading, _feedUri.ToStringRfc()),
-            () => ZeroInstallClient.Detect.SelectAsync(_feedUri, refresh: true).Wait()));
+            () => ThreadUtils.RunTask(() => ZeroInstallClient.Detect.SelectAsync(_feedUri, refresh: true))));
 
         return (
             _feedCache.GetFeed(_feedUri) ?? throw new FileNotFoundException(),
