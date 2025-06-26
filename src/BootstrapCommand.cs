@@ -92,7 +92,7 @@ internal class BootstrapCommand
     private DirectoryInfo? _contentDir;
 
     /// <summary>Path or URI to the boostrap template executable.</summary>
-    private Uri? _template;
+    private string? _template;
 
     private OptionSet BuildOptions()
     {
@@ -126,7 +126,7 @@ internal class BootstrapCommand
                 }
             },
             {"content=", () => Resources.OptionContent, x => _contentDir = new(x)},
-            {"template=", () => Resources.OptionTemplate, (Uri x) => _template = x}
+            {"template=", () => Resources.OptionTemplate, x => _template = x}
         };
 
         options.Add("h|help|?", () => Resources.OptionHelp, _ =>
@@ -188,11 +188,10 @@ internal class BootstrapCommand
         );
     }
 
-    private Uri GetDefaultTemplate(bool needsTerminal)
-        => new(needsTerminal && _integrateArgs == null && !_customizableStorePath
-                ? "https://get.0install.net/0install.exe" // CLI
-                : "https://get.0install.net/zero-install.exe" // GUI
-        );
+    private string GetDefaultTemplate(bool needsTerminal)
+        => needsTerminal && _integrateArgs == null && !_customizableStorePath
+            ? "https://get.0install.net/0install.exe" // CLI
+            : "https://get.0install.net/zero-install.exe"; // GUI
 
     private Stream BuildBootstrapConfig(Feed feed, string? keyFingerprint, bool customSplashScreen)
     {

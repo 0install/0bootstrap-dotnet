@@ -27,12 +27,12 @@ public class BootstrapBuilder(ITaskHandler handler) : IDisposable
     /// Initializes the bootstrapper using a template file.
     /// </summary>
     /// <param name="template">The remote URL or local path to fetch the template from.</param>
-    public void Initialize(Uri template)
+    public void Initialize(string template)
     {
-        if (template.IsFile)
-            handler.RunTask(new ReadFile(template.LocalPath, stream => stream.CopyToFile(_tempFile)));
+        if (template.StartsWith("http:") || template.StartsWith("https:"))
+            handler.RunTask(new DownloadFile(new(template), _tempFile));
         else
-            handler.RunTask(new DownloadFile(template, _tempFile));
+            handler.RunTask(new ReadFile(template, stream => stream.CopyToFile(_tempFile)));
     }
 
     /// <summary>
