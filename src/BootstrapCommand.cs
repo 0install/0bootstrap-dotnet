@@ -180,7 +180,7 @@ internal class BootstrapCommand
     {
         _handler.RunTask(new ActionTask(
             string.Format(Resources.Downloading, _feedUri.ToStringRfc()),
-            () => ThreadUtils.RunTask(() => ZeroInstallClient.Detect.SelectAsync(_feedUri, refresh: true))));
+            () => ZeroInstallClient.Detect.SelectAsync(_feedUri, refresh: true)));
 
         return (
             _feedCache.GetFeed(_feedUri) ?? throw new FileNotFoundException(),
