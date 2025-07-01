@@ -3,13 +3,17 @@
   "extends": ["config:base", ":disableDependencyDashboard"],
   "packageRules": [
     {
+      "matchPackagePatterns": ["^gittools"],
+      "allowedVersions": "<4"
+    },
+    {
       "matchPackagePatterns": ["^NanoByte", "^ZeroInstall"],
       "groupName": "Zero Install .NET",
       "automerge": true,
       "automergeType": "branch"
     },
     {
-      "matchPackagePatterns": ["gittools", "Mono.Cecil", "Vestris.ResourceLib"],
+      "matchPackagePatterns": ["Mono.Cecil", "Vestris.ResourceLib"],
       "automerge": true,
       "automergeType": "branch"
     }
