@@ -108,7 +108,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Sobrescribe archivos existentes.</value>
+    <value>Sobrescribe los archivos existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
