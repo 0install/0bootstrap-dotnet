@@ -1,6 +1,6 @@
 # 0bootstrap - .NET version
 
-[![Build](https://github.com/0install/0bootstrap-dotnet/workflows/Build/badge.svg)](https://github.com/0install/0bootstrap-dotnet/actions?query=workflow%3ABuild)  
+[![Build](https://github.com/0install/0bootstrap-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/0install/0bootstrap-dotnet/actions/workflows/build.yml)  
 0bootstrap generates an executable that installs 0install itself along with a launcher for a 0install app.
 
 **[Documentation and download instructions](https://docs.0install.net/tools/0bootstrap/)**
