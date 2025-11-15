@@ -128,7 +128,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ou le chemin d'accès à l'exécutable du modèle boostrap. Laissez ce champ vide pour télécharger à partir de l'emplacement par défaut.</value>
+    <value>{URI} ou le chemin d'accès à l'exécutable du modèle boostrap. Laisser non défini pour télécharger à partir de l'emplacement par défaut.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
