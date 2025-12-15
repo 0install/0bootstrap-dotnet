@@ -120,7 +120,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>ブートストラッパーを{PATH} に書く。</value>
+    <value>{PATH} にブートストラッパーを記述する。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

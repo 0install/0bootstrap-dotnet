@@ -92,7 +92,7 @@ Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Nastavení konfigurace nulové instalace {0:OPTION} na konkrétní {1:VALUE}. Přepisuje pouze existující konfigurační soubory, pokud Zero Install ještě není nasazen.</value>
+    <value>Nastavení konfigurace nulové instalace {0:OPTION} na konkrétní {1:VALUE}. Přepíše pouze existující konfigurační soubory, pokud Zero Install ještě není nasazen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
