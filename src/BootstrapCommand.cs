@@ -8,7 +8,6 @@ using NanoByte.Common;
 using NanoByte.Common.Info;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
-using NanoByte.Common.Threading;
 using NDesk.Options;
 using ZeroInstall.Bootstrap.Builder.Properties;
 using ZeroInstall.Client;
@@ -166,7 +165,7 @@ internal class BootstrapCommand
         using var bootstrapConfig = BuildBootstrapConfig(feed, keyFingerprint, customSplashScreen: splashScreen != null);
         builder.ModifyEmbeddedResources(bootstrapConfig, splashScreen, _contentDir);
 
-        builder.ReplaceMetadata(feed.Name, Path.GetFileName(_outputFile));
+        builder.ReplaceMetadata(feed.Name, Paths.FileName(_outputFile));
         if (icon != null) builder.ReplaceIcon(icon);
 
         builder.Complete(_outputFile);
