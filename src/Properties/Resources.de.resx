@@ -63,7 +63,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Erstellt einen angepassten Zero Install Bootstrapper zum Ausführen oder Integrieren einer bestimmten Feed.</value>
+    <value>Erstellt einen angepassten Zero Install Bootstrapper zum Ausführen oder Integrieren eines bestimmten Feeds.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -84,7 +84,7 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Zusätzliche Befehlszeilen {ARGUMENTE} zur Übergabe an die von Feed gestartete Anwendung.</value>
+    <value>Zusätzliche Befehlszeilen {ARGUMENTE} zur Übergabe an die vom Feed gestartete Anwendung.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -96,7 +96,7 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} zu ein Verzeichnis mit zusätzlichen Inhalten, die in den Bootstrapper eingebettet werden sollen. Sie können ein solches Verzeichnis mit '0install export' erzeugen.</value>
+    <value>{PATH} zu einem Verzeichnis mit zusätzlichen Inhalten, die in den Bootstrapper eingebettet werden sollen. Sie können ein solches Verzeichnis mit '0install export' erzeugen.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,7 +104,7 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Zeigt den geschätzten benötigte {SPEICHERPLATZ} an (in Bytes). Setzt implizit auch --customizable-store-path.</value>
+    <value>Zeigt den geschätzten benötigten {SPEICHERPLATZ} an (in Bytes). Setzt implizit auch --customizable-store-path.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -120,7 +120,7 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Boostrapper nach {PATH} schreiben.</value>
+    <value>Bootstrapper nach {PATH} schreiben.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +128,7 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} oder Pfad zum Boostrap-Template. Lassen Sie das Feld leer, um das Template vom Standardort herunterzuladen.</value>
+    <value>{URI} oder Pfad zum Bootstrap-Template. Lassen Sie das Feld leer, um das Template vom Standardort herunterzuladen.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

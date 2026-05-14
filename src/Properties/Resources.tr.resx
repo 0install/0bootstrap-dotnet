@@ -92,11 +92,11 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Zero Install yapılandırmasında {0:OPTION} değerin belirli bir {1:VALUE} olarak ayarlayın. Geçerli yapılandırma dosyaları yalnızca Zero Install zaten hazırlanmamış ise değiştirilir</value>
+    <value>Zero Install yapılandırmasında {0:OPTION} değerin belirli bir {1:VALUE} olarak ayarlayın. Geçerli yapılandırma dosyaları yalnızca Zero Install zaten hazırlanmamış ise değiştirilir.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>Ön yükleyiciye ekleneck içeriklerin bulunduğu klasörün yolu {PATH}. '0install Export' komutu ile böyle bir klasör oluşturabilirsiniz.</value>
+    <value>Ön yükleyiciye eklenecek içeriklerin bulunduğu klasörün yolu {PATH}. '0install export' komutu ile böyle bir klasör oluşturabilirsiniz.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
