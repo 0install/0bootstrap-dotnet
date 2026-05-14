@@ -173,7 +173,7 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
     <value>Options:</value>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} or path to the boostrap template executable. Leave unset to download from default location.</value>
+    <value>{URI} or path to the bootstrap template executable. Leave unset to download from default location.</value>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Display version information.</value>
