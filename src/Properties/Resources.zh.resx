@@ -113,7 +113,7 @@
   </data>
   <data name="OptionHelp" xml:space="preserve">
     <value>显示内置帮助文本。</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
     <value>命令行{ARGUMENTS} ，传递给 "0install integrate"。不设置则完全不调用 "0install integrate"。</value>
@@ -124,20 +124,20 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>选项</value>
-    <comment>Automatically translated.</comment>
+    <value>选项：</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} 或 boostrap 模板可执行文件的路径。不设置则从默认位置下载。</value>
+    <value>{URI} 或引导模板可执行文件的路径。不设置则从默认位置下载。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>显示版本信息。</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>使用方法</value>
-    <comment>Automatically translated.</comment>
+    <value>使用方法：</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
     <value>参数数量错误。尝试{0}</value>

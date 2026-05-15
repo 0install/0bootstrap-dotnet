@@ -59,12 +59,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Costruire il bootstrapper</value>
-    <comment>Automatically translated.</comment>
+    <value>Costruzione del bootstrapper</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Costruisce un bootstrapper di installazione zero personalizzato per l'esecuzione o l'integrazione di un feed specifico.</value>
-    <comment>Automatically translated.</comment>
+    <value>Costruisce un Zero Install Bootstrapper personalizzato per l'esecuzione o l'integrazione di un feed specifico.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
     <value>Download di {0} in corso</value>
@@ -84,8 +84,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>{ARGUMENTS} da passare all'applicazione lanciata dal feed.</value>
-    <comment>Automatically translated.</comment>
+    <value>Argomenti aggiuntivi della riga di comando {ARGUMENTS} da passare all'applicazione avviata dal feed.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
     <value>{URI} del catalogo da sostituire a quello predefinito. Si applica solo se Zero Install non è già stato distribuito.</value>
@@ -104,8 +104,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Mostra la stima del disco {SPACE} richiesto (in byte). Imposta implicitamente anche --percorso di memorizzazione personalizzabile.</value>
-    <comment>Automatically translated.</comment>
+    <value>Mostra la stima del disco {SPACE} richiesto (in byte). Imposta implicitamente anche --customizable-store-path.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
     <value>Sovrascrive i file esistenti.</value>
@@ -128,8 +128,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} o il percorso dell'eseguibile del modello boostrap. Lasciare non impostato per scaricare dal percorso predefinito.</value>
-    <comment>Automatically translated.</comment>
+    <value>{URI} o il percorso dell'eseguibile del modello bootstrap. Lasciare non impostato per scaricare dal percorso predefinito.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Visualizza le informazioni sulla versione.</value>
