@@ -59,8 +59,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Construire bootstrapper</value>
-    <comment>Automatically translated.</comment>
+    <value>Construirea bootstrapper-ului</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
     <value>Construiește un Bootstrapper Zero Install personalizat pentru rularea sau integrarea unui anumit feed.</value>
@@ -92,7 +92,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Setează o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Supraînlocuiește fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
+    <value>Setează o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Suprascrie fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -120,16 +120,16 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii GNU L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Scrieți bootstrapper-ul la {PATH}.</value>
-    <comment>Automatically translated.</comment>
+    <value>Scrieți bootstrapper-ul în {PATH}.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Opțiuni:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} sau calea către executabilul șablonului boostrap. Lăsați nestabilit pentru a descărca din locația implicită.</value>
-    <comment>Automatically translated.</comment>
+    <value>{URI} sau calea către executabilul șablonului bootstrap. Lăsați nestabilit pentru a descărca din locația implicită.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Afișează informații despre versiune.</value>

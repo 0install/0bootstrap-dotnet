@@ -96,7 +96,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} do katalogu zawierającego dodatkową zawartość, która zostanie osadzona w bootstrapperze. Taki katalog można wygenerować za pomocą polecenia "0install export".</value>
+    <value>{PATH} do katalogu zawierającego dodatkową zawartość do osadzenia w bootstrapperze. Taki katalog można wygenerować za pomocą polecenia "0install export".</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -128,7 +128,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu boostrap. Pozostaw nie ustawione, aby pobrać z domyślnej lokalizacji.</value>
+    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap. Pozostaw bez ustawienia, aby pobrać z domyślnej lokalizacji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -136,8 +136,8 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Zastosowanie:</value>
-    <comment>Automatically translated.</comment>
+    <value>Użycie:</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
     <value>Nieprawidłowa liczba argumentów. Spróbuj {0}</value>

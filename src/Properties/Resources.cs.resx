@@ -108,8 +108,8 @@ Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Přepis stávajících souborů.</value>
-    <comment>Automatically translated.</comment>
+    <value>Přepíše existující soubory.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
     <value>Zobrazí vestavěný text nápovědy.</value>
@@ -128,12 +128,12 @@ Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} nebo cesta ke spustitelnému souboru šablony boostrap. Pro stahování z výchozího umístění ponechte hodnotu nenastavenou.</value>
+    <value>{URI} nebo cesta ke spustitelnému souboru šablony bootstrap. Pro stahování z výchozího umístění ponechte hodnotu nenastavenou.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Zobrazení informací o verzi.</value>
-    <comment>Automatically translated.</comment>
+    <value>Zobrazí informace o verzi.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Použití:</value>

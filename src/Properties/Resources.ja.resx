@@ -116,11 +116,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>コマンドライン{ARGUMENTS} '0install integrate' に渡す。0install integrate' を呼び出さない場合は、unset のままにします。</value>
-    <comment>Automatically translated.</comment>
+    <value>コマンドライン {ARGUMENTS} を '0install integrate' に渡す。'0install integrate' を呼び出さない場合は、unset のままにします。</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>ブートストラッパーを{PATH} に書く。</value>
+    <value>{PATH} にブートストラッパーを記述する。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,8 +128,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} またはboostrapテンプレート実行ファイルへのパス。デフォルトの場所からダウンロードする場合は未設定のままにしてください。</value>
-    <comment>Automatically translated.</comment>
+    <value>{URI} またはbootstrapテンプレート実行ファイルへのパス。デフォルトの場所からダウンロードする場合は未設定のままにしてください。</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>バージョン情報を表示する。</value>
@@ -140,7 +140,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>引数の数が間違っています。試す{0}</value>
-    <comment>Automatically translated.</comment>
+    <value>引数の数が間違っています。{0} を試してください</value>
+    <comment>Manually overriden.</comment>
   </data>
 </root>

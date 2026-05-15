@@ -84,16 +84,16 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Línea de comandos adicional {ARGUMENTS} para pasar a la aplicación lanzada por la alimentación.</value>
-    <comment>Automatically translated.</comment>
+    <value>Línea de comandos adicional {ARGUMENTS} para pasar a la aplicación iniciada por el feed.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
     <value>{URI} del catálogo que sustituirá al catálogo predeterminado. Sólo se aplica si Zero Install no está ya desplegado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Establece una configuración de Instalación Cero {0:OPTION} en un {1:VALUE} específico. Sólo anula los archivos de configuración existentes si la Instalación Cero no está ya desplegada.</value>
-    <comment>Automatically translated.</comment>
+    <value>Establece una configuración de Zero Install {0:OPTION} en un {1:VALUE} específico. Sólo anula los archivos de configuración existentes si Zero Install no está ya desplegado.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
     <value>{PATH} a un directorio con contenido adicional que se incrustará en el bootstrapper. Puede generar dicho directorio utilizando '0install export'.</value>
@@ -108,7 +108,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Sobrescribe los archivos existentes.</value>
+    <value>Sobrescribe archivos existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -128,8 +128,8 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} o ruta al ejecutable de la plantilla boostrap. Dejar sin definir para descargar desde la ubicación predeterminada.</value>
-    <comment>Automatically translated.</comment>
+    <value>{URI} o ruta al ejecutable de la plantilla bootstrap. Dejar sin definir para descargar desde la ubicación predeterminada.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Muestra información sobre la versión.</value>

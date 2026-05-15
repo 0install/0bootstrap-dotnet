@@ -80,8 +80,8 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Program ini hadir tanpa jaminan sama sekali, sejauh diizinkan oleh hukum.
-Anda dapat menyebarluaskan salinan program ini di bawah persyaratan Lisensi Publik Umum GNU.</value>
-    <comment>Automatically translated.</comment>
+Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser General Public License.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
     <value>Baris perintah tambahan {ARGUMENTS} untuk diteruskan ke aplikasi yang diluncurkan oleh feed.</value>
@@ -128,7 +128,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan Lisensi Publ
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} atau jalur ke templat boostrap yang dapat dieksekusi. Biarkan tidak diatur untuk mengunduh dari lokasi default.</value>
+    <value>{URI} atau jalur ke templat bootstrap yang dapat dieksekusi. Biarkan tidak diatur untuk mengunduh dari lokasi default.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
