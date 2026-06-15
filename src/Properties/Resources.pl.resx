@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Budowanie bootstrappera</value>
+    <value>Tworzenie programu rozruchowego</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Buduje dostosowany Zero Install Bootstrapper do uruchamiania lub integracji określonego kanału.</value>
+    <value>Tworzy dostosowany program Zero Install Bootstrapper do uruchamiania lub integracji określonego źródła.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,56 +71,56 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Plik '{0}' już istnieje. Użyj --force, aby nadpisać.</value>
+    <value>Plik „{0} ” już istnieje. Użyj opcji --force, aby go nadpisać.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Wygenerowano '{0}'</value>
+    <value>Wygenerowano „{0} ”</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Ten program nie jest objęty ABSOLUTNIE ŻADNĄ GWARANCJĄ, w zakresie dozwolonym przez prawo.
-Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser General Public License.</value>
+    <value>Program ten jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
+Możesz rozpowszechniać kopie tego programu na warunkach licencji GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Dodatkowy wiersz poleceń {ARGUMENTS} do przekazania do aplikacji uruchamianej przez feed.</value>
+    <value>{ARGUMENTS} Dodatkowe parametry wiersza poleceń, które należy przekazać do aplikacji uruchamianej przez kanał.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} katalogu, który ma zastąpić katalog domyślny. Ma zastosowanie tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
+    <value>{URI} a katalogu, który ma zastąpić katalog domyślny. Dotyczy tylko sytuacji, gdy Zero Install nie jest jeszcze wdrożone.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Ustawia konfigurację Zero Install {0:OPTION} na określoną {1:VALUE}. Zastępuje istniejące pliki konfiguracyjne tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
+    <value>Ustaw konfigurację Zero Install {0:OPTION} na konkretną {1:VALUE}. Zastępuje istniejące pliki konfiguracyjne tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} do katalogu zawierającego dodatkową zawartość do osadzenia w bootstrapperze. Taki katalog można wygenerować za pomocą polecenia "0install export".</value>
+    <value>{PATH} do katalogu zawierającego dodatkową zawartość, która ma zostać osadzona w programie rozruchowym. Taki katalog można wygenerować za pomocą polecenia „0install export”.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Oferuje użytkownikowi wybór niestandardowej ścieżki do przechowywania implementacji.</value>
+    <value>Umożliwia użytkownikowi wybranie niestandardowej ścieżki do przechowywania implementacji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Pokazuje szacowany wymagany dysk {SPACE} (w bajtach). Niejawnie ustawia również --customizable-store-path.</value>
+    <value>Wyświetla szacunkową ilość miejsca na dysku (w bajtach) wymaganą do zainstalowania pakietu. Ustawia również domyślnie opcję -- {SPACE} -store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Nadpisuje istniejące pliki.</value>
+    <value>Zastąp istniejące pliki.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Wyświetla wbudowany tekst pomocy.</value>
+    <value>Wyświetl wbudowaną pomoc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Wiersz poleceń {ARGUMENTS} do przekazania do '0install integrate'. Pozostaw unset, aby w ogóle nie wywoływać '0install integrate'.</value>
+    <value>{ARGUMENTS} a wiersza poleceń, którą należy przekazać do '0install integrate'. Pozostaw niezdefiniowaną, aby w ogóle nie wywoływać '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Napisz bootstrapper do {PATH}.</value>
+    <value>Napisz program rozruchowy na adres {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,11 +128,11 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap. Pozostaw bez ustawienia, aby pobrać z domyślnej lokalizacji.</value>
+    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap. Pozostaw puste, aby pobrać z domyślnej lokalizacji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Wyświetla informacje o wersji.</value>
+    <value>Wyświetl informacje o wersji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

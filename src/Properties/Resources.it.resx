@@ -71,7 +71,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Il file '{0}' esiste già. Usare --force per sovrascriverlo.</value>
+    <value>Il file '{0}' esiste già. Utilizzare --force per sovrascriverlo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
@@ -79,7 +79,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Questo programma non è accompagnato da alcuna garanzia, nei limiti consentiti dalla legge.
+    <value>Questo programma viene fornito SENZA ALCUNA GARANZIA, nei limiti consentiti dalla legge.
 È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -88,19 +88,19 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} del catalogo da sostituire a quello predefinito. Si applica solo se Zero Install non è già stato distribuito.</value>
+    <value>L'{URI} e del catalogo da sostituire al catalogo predefinito. Si applica solo se Zero Install non è già stato implementato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Imposta una configurazione di Zero Install {0:OPTION} a uno specifico {1:VALUE}. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già distribuito.</value>
+    <value>Imposta l'{0:OPTION} e di configurazione di Zero Install su un {1:VALUE} specifico. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già stato distribuito.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} a una directory contenente contenuti aggiuntivi da incorporare nel bootstrapper. È possibile generare tale directory usando '0install export'.</value>
+    <value>{PATH} in una directory contenente contenuti aggiuntivi da incorporare nel bootstrapper. È possibile generare tale directory utilizzando '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Offre all'utente la possibilità di scegliere un percorso personalizzato per la memorizzazione delle implementazioni.</value>
+    <value>Consenti all'utente di scegliere un percorso personalizzato per l'archiviazione delle implementazioni.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -108,19 +108,19 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Sovrascrive i file esistenti.</value>
+    <value>Sovrascrivi i file esistenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostra il testo di aiuto incorporato.</value>
+    <value>Visualizza il testo della guida integrata.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Linea di comando {ARGUMENTS} da passare a '0install integrate'. Lasciare unset per non chiamare affatto '0install integrate'.</value>
+    <value>{ARGUMENTS} e della riga di comando da passare a '0install integrate'. Lasciare non impostato per non chiamare affatto '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Scrivere il bootstrapper su {PATH}.</value>
+    <value>Scrivi il bootstrapper su {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -140,7 +140,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Numero errato di argomenti. Prova {0}</value>
+    <value>Numero di argomenti errato. Prova {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

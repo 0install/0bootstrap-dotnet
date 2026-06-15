@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Construction d'un bootstrapper</value>
+    <value>Création d'un programme d'amorçage</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construit un Zero Install Bootstrapper personnalisé pour l'exécution ou l'intégration d'un flux spécifique.</value>
+    <value>Crée un programme d'amorçage Zero Install personnalisé pour exécuter ou intégrer un flux spécifique.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Le fichier '{0}' existe déjà. Utilisez --force pour l'écraser.</value>
+    <value>Le fichier «{0} » existe déjà. Utilisez --force pour le remplacer.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Généré '{0}'</value>
+    <value>Génération de «{0} »</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -84,31 +84,31 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Ligne de commande supplémentaire {ARGUMENTS} à transmettre à l'application lancée par le flux.</value>
+    <value>{ARGUMENTS} s supplémentaires à transmettre à l'application lancée par le flux via la ligne de commande.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} du catalogue qui remplacera le catalogue par défaut. Ne s'applique que si Zero Install n'est pas déjà déployé.</value>
+    <value>{URI} ation du catalogue pour remplacer le catalogue par défaut. Ne s'applique que si Zero Install n'est pas déjà déployé.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Définir une configuration de Zero Install {0:OPTION} à une {1:VALUE} spécifique. Ne remplace les fichiers de configuration existants que si Zero Install n'est pas déjà déployé.</value>
+    <value>Définit l'{0:OPTION} de configuration de Zero Install sur une {1:VALUE} spécifique. Ne remplace les fichiers de configuration existants que si Zero Install n'est pas déjà déployé.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} vers un répertoire contenant du contenu supplémentaire à intégrer dans le bootstrapper. Vous pouvez générer un tel répertoire en utilisant '0install export'.</value>
+    <value>{PATH} vers un répertoire contenant du contenu supplémentaire à intégrer dans le programme d'amorçage. Vous pouvez générer un tel répertoire à l'aide de la commande « 0install export ».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Permet à l'utilisateur de choisir un chemin d'accès personnalisé pour le stockage des implémentations.</value>
+    <value>Permettre à l'utilisateur de choisir un chemin d'accès personnalisé pour stocker les implémentations.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Affiche l'estimation du disque {SPACE} nécessaire (en octets). Définit aussi implicitement --customizable-store-path.</value>
+    <value>Affiche l'{SPACE} e estimée requise sur le disque (en octets). Définit implicitement --customizable-store-path également.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Écraser les fichiers existants.</value>
+    <value>Remplacer les fichiers existants.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -116,7 +116,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Ligne de commande {ARGUMENTS} à transmettre à '0install integrate'. Laissez le paramètre non défini pour ne pas appeler '0install integrate' du tout.</value>
+    <value>{ARGUMENTS} s de ligne de commande à passer à « 0install integrate ». Ne rien définir pour ne pas appeler « 0install integrate » du tout.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">

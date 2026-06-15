@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Membangun bootstrapper</value>
+    <value>Membuat bootstrapper</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Membangun Zero Install Bootstrapper yang disesuaikan untuk menjalankan atau mengintegrasikan feed tertentu.</value>
+    <value>Membuat Zero Install Bootstrapper yang disesuaikan untuk menjalankan atau mengintegrasikan feed tertentu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>File '{0}' sudah ada. Gunakan --force untuk menimpa.</value>
+    <value>Berkas '{0}' sudah ada. Gunakan opsi --force untuk menimpa berkas tersebut.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Dibuat oleh '{0}'</value>
+    <value>Dibuat '{0}'</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -84,39 +84,39 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Baris perintah tambahan {ARGUMENTS} untuk diteruskan ke aplikasi yang diluncurkan oleh feed.</value>
+    <value>{ARGUMENTS} asi baris perintah tambahan yang akan diteruskan ke aplikasi yang diluncurkan oleh feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>Katalog {URI} untuk menggantikan katalog default. Hanya berlaku jika Zero Install belum digunakan.</value>
+    <value>{URI} asi katalog untuk menggantikan katalog default. Hanya berlaku jika Zero Install belum diimplementasikan.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Mengatur konfigurasi Zero Install {0:OPTION} ke {1:VALUE} tertentu. Hanya mengganti file konfigurasi yang sudah ada jika Zero Install belum digunakan.</value>
+    <value>Tetapkan konfigurasi Zero Install {0:OPTION} ke {1:VALUE} tertentu. Hanya akan mengganti berkas konfigurasi yang sudah ada jika Zero Install belum diinstal.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} ke direktori yang berisi konten tambahan yang akan disematkan dalam bootstrapper. Anda dapat membuat direktori seperti itu dengan menggunakan '0install export'.</value>
+    <value>{PATH} ke direktori yang berisi konten tambahan yang akan disematkan dalam bootstrapper. Anda dapat membuat direktori tersebut menggunakan perintah '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Menawarkan pengguna untuk memilih jalur khusus untuk menyimpan implementasi.</value>
+    <value>Berikan opsi kepada pengguna untuk memilih jalur khusus untuk menyimpan implementasi.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Menampilkan perkiraan disk {SPACE} yang dibutuhkan (dalam byte). Secara implisit juga menetapkan --customizable-store-path.</value>
+    <value>Menampilkan perkiraan ruang disk yang diperlukan ( {SPACE} ) (dalam byte). Secara implisit juga menetapkan --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Menimpa file yang sudah ada.</value>
+    <value>Menimpa berkas yang sudah ada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Menampilkan teks bantuan bawaan.</value>
+    <value>Tampilkan teks bantuan bawaan.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Baris perintah {ARGUMENTS} untuk diteruskan ke '0install integrate'. Biarkan tidak diatur untuk tidak memanggil '0install integrate' sama sekali.</value>
+    <value>{ARGUMENTS} asi baris perintah yang akan diteruskan ke '0install integrate'. Biarkan tidak diatur jika tidak ingin memanggil '0install integrate' sama sekali.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -128,7 +128,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} atau jalur ke templat bootstrap yang dapat dieksekusi. Biarkan tidak diatur untuk mengunduh dari lokasi default.</value>
+    <value>{URI} atau jalur ke file eksekusi templat bootstrap. Biarkan tidak diatur untuk mengunduh dari lokasi default.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -140,7 +140,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Jumlah argumen yang salah. Coba {0}</value>
+    <value>Jumlah argumen salah. Coba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

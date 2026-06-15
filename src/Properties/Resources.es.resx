@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Construcción de bootstrapper</value>
+    <value>Compilación del programa de arranque</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construye un Zero Install Bootstrapper personalizado para ejecutar o integrar un feed específico.</value>
+    <value>Compila un Bootstrapper de Zero Install personalizado para ejecutar o integrar un feed específico.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,16 +71,16 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>El archivo '{0}' ya existe. Utilice --force para sobrescribirlo.</value>
+    <value>El archivo «{0} » ya existe. Usa --force para sobrescribirlo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Generado '{0}'</value>
+    <value>Generado «{0} »</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Este programa no incluye ABSOLUTAMENTE NINGUNA GARANTÍA, en la medida permitida por la ley.
-Puede redistribuir copias de este programa bajo los términos de la Licencia Pública General Reducida GNU.</value>
+    <value>Este programa se distribuye SIN NINGÚN TIPO DE GARANTÍA, en la medida en que lo permita la ley.
+Puedes redistribuir copias de este programa bajo los términos de la Licencia Pública General Reducida de GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
@@ -88,7 +88,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} del catálogo que sustituirá al catálogo predeterminado. Sólo se aplica si Zero Install no está ya desplegado.</value>
+    <value>El archivo ` {URI} ` del catálogo para sustituir el catálogo predeterminado. Solo se aplica si Zero Install aún no está implementado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -96,31 +96,31 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} a un directorio con contenido adicional que se incrustará en el bootstrapper. Puede generar dicho directorio utilizando '0install export'.</value>
+    <value>{PATH} a un directorio que contenga contenido adicional que se vaya a integrar en el programa de arranque. Puedes generar dicho directorio utilizando «0install export».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Ofrece al usuario la posibilidad de elegir una ruta personalizada para almacenar las implementaciones.</value>
+    <value>Permite al usuario elegir una ruta personalizada para almacenar las implementaciones.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Muestra la estimación de disco {SPACE} requerida (en bytes). También establece implícitamente --customizable-store-path.</value>
+    <value>{SPACE} Muestra el espacio en disco estimado necesario (en bytes). También configura implícitamente --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Sobrescribe archivos existentes.</value>
+    <value>Sobrescribir los archivos existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Muestra el texto de ayuda integrado.</value>
+    <value>Mostrar el texto de ayuda integrado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Línea de comandos {ARGUMENTS} para pasar a '0install integrate'. Dejar sin definir para no llamar a '0install integrate'.</value>
+    <value>{ARGUMENTS} e de línea de comandos que se pasa a «0install integrate». Déjalo sin definir para no llamar a «0install integrate» en absoluto.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Escriba el bootstrapper en {PATH}.</value>
+    <value>Escribe el programa de arranque en {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -132,15 +132,15 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Muestra información sobre la versión.</value>
+    <value>Mostrar información sobre la versión.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Utilización:</value>
+    <value>Uso:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Número incorrecto de argumentos. Pruebe {0}</value>
+    <value>Número incorrecto de argumentos. Inténtalo de nuevo. {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
