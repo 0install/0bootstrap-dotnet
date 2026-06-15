@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Sestaví přizpůsobený zaváděcí program Zero Install Bootstrapper pro spuštění nebo integraci konkrétního kanálu.</value>
+    <value>Vytvoří přizpůsobený Zero Install Bootstrapper pro spuštění nebo integraci konkrétního zdroje.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,40 +71,40 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Soubor '{0}' již existuje. Pro přepsání použijte --force.</value>
+    <value>Soubor „{0} “ již existuje. Použijte --force pro přepsání.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Generováno '{0}'</value>
+    <value>Vygenerováno „{0} “</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Na tento program se v rozsahu povoleném zákonem nevztahuje ABSOLUTNĚ ŽÁDNÁ ZÁRUKA.
-Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public License.</value>
+    <value>Tento program je dodáván BEZ JAKÉKOLIV ZÁRUKY, v rozsahu povoleném zákonem.
+Kopie tohoto programu můžete šířit v souladu s podmínkami GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Další příkazový řádek {ARGUMENTS}, který se předá aplikaci spuštěné pomocí feedu.</value>
+    <value>Další příkazy příkazového řádku {ARGUMENTS}, které se mají předat aplikaci spuštěné kanálem.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} katalogu, který nahradí výchozí katalog. Platí pouze v případě, že Zero Install ještě není nasazen.</value>
+    <value>{URI} u katalogu, který nahradí výchozí katalog. Platí pouze v případě, že Zero Install ještě není nasazen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Nastavení konfigurace nulové instalace {0:OPTION} na konkrétní {1:VALUE}. Přepíše pouze existující konfigurační soubory, pokud Zero Install ještě není nasazen.</value>
+    <value>Nastavte konfigurační soubor Zero Install {0:OPTION} na konkrétní {1:VALUE}. Přepíše stávající konfigurační soubory pouze v případě, že Zero Install ještě není nasazen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} do adresáře obsahujícího další obsah, který má být vložen do bootstrapperu. Takový adresář můžete vytvořit pomocí příkazu '0install export'.</value>
+    <value>{PATH} do adresáře obsahujícího další obsah, který má být vložen do bootstrapperu. Takový adresář můžete vygenerovat pomocí příkazu „0install export“.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Nabízí uživateli možnost zvolit si vlastní cestu pro ukládání implementací.</value>
+    <value>Nabídněte uživateli možnost zvolit vlastní cestu pro ukládání implementací.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Zobrazí odhadovanou potřebu disku {SPACE} (v bytech). Implicitně nastavuje také --customizable-store-path.</value>
+    <value>Zobrazí odhadovanou potřebnou diskovou kapacitu (v bajtech). Implicitně nastaví také -- {SPACE} -store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -112,15 +112,15 @@ Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public L
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Zobrazí vestavěný text nápovědy.</value>
+    <value>Zobrazit vestavěný text nápovědy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Příkazový řádek {ARGUMENTS}, který se předává příkazu '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
+    <value>{ARGUMENTS} a příkazového řádku, který se předá příkazu „0install integrate“. Pokud není nastaveno, příkaz „0install integrate“ se vůbec nespustí.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Napište bootstrapper na adresu {PATH}.</value>
+    <value>Napište bootstrapper na {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +128,7 @@ Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public L
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} nebo cesta ke spustitelnému souboru šablony bootstrap. Pro stahování z výchozího umístění ponechte hodnotu nenastavenou.</value>
+    <value>{URI} nebo cesta ke spustitelnému souboru šablony bootstrapu. Pokud není nastaveno, stáhne se z výchozího umístění.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -140,7 +140,7 @@ Kopie tohoto programu můžete šířit za podmínek GNU Lesser General Public L
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Špatný počet argumentů. Zkuste {0}</value>
+    <value>Nesprávný počet argumentů. Zkuste {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

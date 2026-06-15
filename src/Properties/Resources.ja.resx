@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>ブートストラッパーの構築</value>
+    <value>ブートストラップのビルド</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>特定のフィードを実行または統合するためにカスタマイズされたゼロインストールブートストラッパーを構築します。</value>
+    <value>特定のフィードを実行または統合するための、カスタマイズされたZero Installブートストラッパーをビルドします。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,48 +71,48 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>ファイル '{0}' は既に存在します。上書きするには --force を使用してください。</value>
+    <value>ファイル「{0} 」はすでに存在します。上書きするには --force オプションを使用してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>生成された '{0}'</value>
+    <value>生成された「{0} 」</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>このプログラムには、法律で認められている限りにおいて、まったくの無保証が付されています。
-あなたは、GNU Lesser General Public Licenseの条件の下で、このプログラムのコピーを再配布することができます。</value>
+    <value>本プログラムは、法律で認められる範囲において、一切の保証を伴いません。
+本プログラムの複製物は、GNU Lesser General Public License の条件に従って再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>フィードによって起動されるアプリケーションに渡す追加のコマンドライン{ARGUMENTS}.</value>
+    <value>フィードによって起動されるアプリケーションに渡す追加のコマンドライン{ARGUMENTS} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>デフォルトのカタログを置き換えるカタログの{URI} 。Zero Installがまだデプロイされていない場合にのみ適用されます。</value>
+    <value>デフォルトのカタログを置き換えるカタログの{URI} 。Zero Installがまだ導入されていない場合にのみ適用されます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Zero Install 設定{0:OPTION} を特定の{1:VALUE} に設定します。Zero Install がまだデプロイされていない場合にのみ、既存の設定ファイルを上書きします。</value>
+    <value>Zero Installの設定ファイル{0:OPTION} を特定の{1:VALUE} に設定します。Zero Installがまだデプロイされていない場合のみ、既存の設定ファイルを上書きします。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} には、ブートストラッパーに組み込む追加コンテンツを含むディレクトリを指定します。このようなディレクトリは、'0install export' を使って生成できます。</value>
+    <value>{PATH} ブートストラッパーに埋め込む追加コンテンツを含むディレクトリへ。このようなディレクトリは '0install export' コマンドを使用して生成できます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>実装を保存するためのカスタムパスを選択できる。</value>
+    <value>実装を保存するカスタムパスをユーザーが選択できるようにする。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>必要なディスク{SPACE} の見積もり（バイト単位）を表示する。暗黙的に --customizable-store-path も設定する。</value>
+    <value>{SPACE} 必要なディスク容量の推定値（バイト単位）を表示します。これにより、--customizable-store-path も暗黙的に設定されます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>既存のファイルを上書きする。</value>
+    <value>既存のファイルを上書きします。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>組み込みのヘルプテキストを表示する。</value>
+    <value>組み込みのヘルプテキストを表示します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
@@ -120,7 +120,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>{PATH} にブートストラッパーを記述する。</value>
+    <value>ブートストラッププログラムを{PATH} に記述してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -132,11 +132,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>バージョン情報を表示する。</value>
+    <value>バージョン情報を表示します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>使用法：</value>
+    <value>使用方法:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">

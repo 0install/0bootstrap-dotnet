@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>构建定制的零安装引导程序，用于运行或集成特定的 feed。</value>
+    <value>构建一个定制的 Zero Install 引导程序，用于运行或集成特定的软件源。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,44 +71,44 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>文件{0} 已经存在。使用 --force 进行覆盖。</value>
+    <value>文件 '{0}' 已存在。请使用 --force 参数进行覆盖。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>生成 '{0}'</value>
+    <value>生成的 '{0}'</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>在法律允许的范围内，本程序不提供任何担保。
-您可以根据 GNU 宽通用公共许可证的条款重新发布本程序的副本。</value>
+    <value>在法律允许的范围内，本程序不提供任何形式的保证。
+您可以根据 GNU 较少通用公共许可证的条款重新分发本程序的副本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>附加命令行{ARGUMENTS} ，用于将信息传递给由 feed 启动的应用程序。</value>
+    <value>传递给由 feed 启动的应用程序的额外命令行{ARGUMENTS} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>取代默认目录的目录{URI} 。仅适用于尚未部署 Zero Install 的情况。</value>
+    <value>目录的{URI} ，用于替换默认目录。仅在尚未部署 Zero Install 时适用。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>将 Zero Install 配置{0:OPTION} 设置为特定的{1:VALUE} 。只有在尚未部署 Zero Install 的情况下，才会覆盖现有配置文件。</value>
+    <value>将 Zero Install 配置文件{0:OPTION} 设置为特定的{1:VALUE} 。仅当 Zero Install 尚未部署时，才会覆盖现有的配置文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} 目录，其中包含要嵌入引导程序的附加内容。您可以使用 "0install export "生成这样的目录。</value>
+    <value>{PATH} 指向包含需嵌入引导程序的附加内容的目录。您可以使用 '0install export' 命令生成此类目录。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>为用户提供选择自定义路径的功能。</value>
+    <value>允许用户选择自定义路径来存储实现代码。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>显示估计所需的磁盘{SPACE} （以字节为单位）。同时隐含设置 --customizable-store-path.</value>
+    <value>显示所需的估计磁盘空间（以字节为单位）：{SPACE} 。同时会隐式设置 --customizable-store-path。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>覆盖现有文件</value>
+    <value>覆盖现有文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -116,11 +116,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>命令行{ARGUMENTS} ，传递给 "0install integrate"。不设置则完全不调用 "0install integrate"。</value>
+    <value>传递给 '0install integrate' 的命令行参数{ARGUMENTS} 。若未设置，则完全不调用 '0install integrate'。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>将引导程序写入{PATH} 。</value>
+    <value>请将引导程序提交至{PATH} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +128,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} 或引导模板可执行文件的路径。不设置则从默认位置下载。</value>
+    <value>{URI} 或引导模板可执行文件的路径。若未设置，则从默认位置下载。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -140,7 +140,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>参数数量错误。尝试{0}</value>
+    <value>参数个数不正确。请尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Δημιουργία bootstrapper</value>
+    <value>Δημιουργία προγράμματος εκκίνησης</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Κατασκευάζει ένα προσαρμοσμένο Zero Install Bootstrapper για την εκτέλεση ή την ενσωμάτωση μιας συγκεκριμένης τροφοδοσίας.</value>
+    <value>Δημιουργεί ένα προσαρμοσμένο Zero Install Bootstrapper για την εκτέλεση ή την ενσωμάτωση μιας συγκεκριμένης τροφοδοσίας.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,7 +71,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Το αρχείο '{0}' υπάρχει ήδη. Χρησιμοποιήστε το --force για να το αντικαταστήσετε.</value>
+    <value>Το αρχείο «{0} » υπάρχει ήδη. Χρησιμοποιήστε την επιλογή --force για να το αντικαταστήσετε.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
@@ -84,23 +84,23 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Πρόσθετη γραμμή εντολών {ARGUMENTS} για να περάσετε στην εφαρμογή που εκκινείται από την τροφοδοσία.</value>
+    <value>Πρόσθετες παραμέτρους γραμμής εντολών ( {ARGUMENTS} ) που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>Το {URI} του καταλόγου που θα αντικαταστήσει τον προεπιλεγμένο κατάλογο. Ισχύει μόνο αν το Zero Install δεν έχει ήδη αναπτυχθεί.</value>
+    <value>Το {URI} του καταλόγου για την αντικατάσταση του προεπιλεγμένου καταλόγου. Ισχύει μόνο εάν το Zero Install δεν έχει ήδη εγκατασταθεί.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Ορισμός μιας διαμόρφωσης Zero Install {0:OPTION} σε ένα συγκεκριμένο {1:VALUE}. Αντικαθιστά μόνο τα υπάρχοντα αρχεία ρυθμίσεων αν το Zero Install δεν έχει ήδη αναπτυχθεί.</value>
+    <value>Ορίστε μια διαμόρφωση Zero Install {0:OPTION} σε ένα συγκεκριμένο {1:VALUE}. Αντικαθιστά τα υπάρχοντα αρχεία διαμόρφωσης μόνο εάν το Zero Install δεν έχει ήδη αναπτυχθεί.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} σε έναν κατάλογο που περιέχει πρόσθετο περιεχόμενο που θα ενσωματωθεί στο bootstrapper. Μπορείτε να δημιουργήσετε έναν τέτοιο κατάλογο χρησιμοποιώντας το '0install export'.</value>
+    <value>{PATH} σε έναν κατάλογο που περιέχει πρόσθετο περιεχόμενο που θα ενσωματωθεί στο bootstrapper. Μπορείτε να δημιουργήσετε έναν τέτοιο κατάλογο χρησιμοποιώντας την εντολή '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Προσφέρει στο χρήστη τη δυνατότητα να επιλέξει μια προσαρμοσμένη διαδρομή για την αποθήκευση των υλοποιήσεων.</value>
+    <value>Δώστε τη δυνατότητα στον χρήστη να επιλέξει μια προσαρμοσμένη διαδρομή για την αποθήκευση των υλοποιήσεων.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Αντικατάσταση υφιστάμενων αρχείων.</value>
+    <value>Αντικατάσταση υπαρχόντων αρχείων.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -116,7 +116,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Γραμμή εντολών {ARGUMENTS} για να περάσετε στο '0install integrate'. Αφήστε unset για να μην καλέσετε καθόλου το '0install integrate'.</value>
+    <value>{ARGUMENTS} της γραμμής εντολών που θα περάσει στο '0install integrate'. Αφήστε το κενό για να μην καλέσετε καθόλου το '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
