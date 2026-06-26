@@ -18,7 +18,7 @@ function Run-MSBuild {
 
 # Build
 if ($env:CI) { $ci = "/p:ContinuousIntegrationBuild=True" }
-Run-MSBuild /v:Quiet /t:Restore /t:Build $ci /p:Configuration=Release /p:Version=$Version ZeroInstall.Bootstrap.Builder.slnx
+Run-MSBuild /v:Quiet /Restore /t:Build $ci /p:Configuration=Release /p:Version=$Version ZeroInstall.Bootstrap.Builder.slnx
 Remove-Item ..\artifacts\Release\net48 -Include *.xml,*.pdb
 
 popd
