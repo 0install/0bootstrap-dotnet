@@ -84,7 +84,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Πρόσθετες παραμέτρους γραμμής εντολών ( {ARGUMENTS} ) που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
+    <value>Πρόσθετες παράμετροι γραμμής εντολών ( {ARGUMENTS} ) που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -92,15 +92,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Ορίστε μια διαμόρφωση Zero Install {0:OPTION} σε ένα συγκεκριμένο {1:VALUE}. Αντικαθιστά τα υπάρχοντα αρχεία διαμόρφωσης μόνο εάν το Zero Install δεν έχει ήδη αναπτυχθεί.</value>
+    <value>Ορίστε μια διαμόρφωση Zero Install {0:OPTION} σε ένα συγκεκριμένο {1:VALUE}. Αντικαθιστά τα υπάρχοντα αρχεία διαμόρφωσης μόνο εάν το Zero Install δεν έχει ήδη εγκατασταθεί.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} σε έναν κατάλογο που περιέχει πρόσθετο περιεχόμενο που θα ενσωματωθεί στο bootstrapper. Μπορείτε να δημιουργήσετε έναν τέτοιο κατάλογο χρησιμοποιώντας την εντολή '0install export'.</value>
+    <value>{PATH} σε έναν κατάλογο που περιέχει επιπλέον περιεχόμενο που θα ενσωματωθεί στο bootstrapper. Μπορείτε να δημιουργήσετε έναν τέτοιο κατάλογο χρησιμοποιώντας την εντολή «0install export».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Δώστε τη δυνατότητα στον χρήστη να επιλέξει μια προσαρμοσμένη διαδρομή για την αποθήκευση των υλοποιήσεων.</value>
+    <value>Δίνει τη δυνατότητα στον χρήστη να επιλέξει μια προσαρμοσμένη διαδρομή για την αποθήκευση των υλοποιήσεων.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -116,11 +116,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} της γραμμής εντολών που θα περάσει στο '0install integrate'. Αφήστε το κενό για να μην καλέσετε καθόλου το '0install integrate'.</value>
+    <value>{ARGUMENTS} της γραμμής εντολών που θα περαστεί στο '0install integrate'. Αφήστε το κενό για να μην κληθεί καθόλου το '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Γράψτε το bootstrapper στο {PATH}.</value>
+    <value>Γράψτε το πρόγραμμα εκκίνησης στο {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

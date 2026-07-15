@@ -63,7 +63,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Construiește un Zero Install Bootstrapper personalizat pentru rularea sau integrarea unui feed specific.</value>
+    <value>Creează un Zero Install Bootstrapper personalizat pentru rularea sau integrarea unui feed specific.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Fișierul „{0} ” există deja. Utilizați --force pentru a-l suprascrie.</value>
+    <value>Fișierul „{0} ” există deja. Utilizați opțiunea --force pentru a-l suprascrie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Generat „{0} ”</value>
+    <value>S-a generat „{0} ”</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -92,11 +92,11 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Setează o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Suprascrie fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
+    <value>Setează o configurație Zero Install {0:OPTION} la o anumită adresă {1:VALUE}. Suprascrie fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} într-un director care conține conținut suplimentar care urmează să fie încorporat în bootstrapper. Puteți genera un astfel de director folosind '0install export'.</value>
+    <value>{PATH} într-un director care conține conținut suplimentar care urmează să fie încorporat în programul de inițializare. Puteți genera un astfel de director folosind comanda „0install export”.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,7 +104,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Afișează spațiul estimat necesar pe disc (în octeți) pentru fișierul {SPACE}. Setează implicit și --customizable-store-path.</value>
+    <value>Afișează spațiul estimat necesar pe disc ( {SPACE} ) (în octeți). Setează implicit și opțiunea --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -116,7 +116,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} ul de linie de comandă care trebuie transmis către '0install integrate'. Lăsați nesetat pentru a nu apela deloc '0install integrate'.</value>
+    <value>{ARGUMENTS} ul de linie de comandă care trebuie transmis către „0install integrate”. Lăsați ne at pentru a nu apela deloc „0install integrate”.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -136,7 +136,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Utilizare:</value>
+    <value>Mod de utilizare:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">

@@ -88,7 +88,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>L'{URI} e del catalogo da sostituire al catalogo predefinito. Si applica solo se Zero Install non è già stato implementato.</value>
+    <value>L'{URI} e del catalogo da utilizzare al posto di quello predefinito. Si applica solo se Zero Install non è già stato implementato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Consenti all'utente di scegliere un percorso personalizzato per l'archiviazione delle implementazioni.</value>
+    <value>Consente all'utente di scegliere un percorso personalizzato in cui salvare le implementazioni.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -120,7 +120,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Scrivi il bootstrapper su {PATH}.</value>
+    <value>Scrivere il programma di avvio su {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -140,7 +140,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Numero di argomenti errato. Prova {0}</value>
+    <value>Numero di argomenti errato. Prova a {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

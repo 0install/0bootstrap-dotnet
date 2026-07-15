@@ -75,16 +75,16 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Gerado '{0}'</value>
+    <value>Gerado «{0} »</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Este programa é fornecido SEM QUALQUER TIPO DE GARANTIA, na medida do permitido por lei.
-Pode redistribuir cópias deste programa nos termos da Licença Pública Geral Reduzida da GNU.</value>
+Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Pública Geral Reduzida da GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>{ARGUMENTS} os adicionais da linha de comando a passar para a aplicação iniciada pelo feed.</value>
+    <value>{ARGUMENTS} os adicionais da linha de comandos a passar para a aplicação iniciada pelo feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -92,19 +92,19 @@ Pode redistribuir cópias deste programa nos termos da Licença Pública Geral R
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Defina um e {0:OPTION} e de configuração do Zero Install para um {1:VALUE} específico. Só substitui os ficheiros de configuração existentes se o Zero Install ainda não estiver implementado.</value>
+    <value>Defina um ficheiro de configuração do Zero Install {0:OPTION} para um {1:VALUE} específico. Só substitui os ficheiros de configuração existentes se o Zero Install ainda não estiver implementado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} para um diretório que contenha conteúdo adicional a ser incorporado no bootstrapper. Pode gerar esse diretório utilizando o comando «0install export».</value>
+    <value>{PATH} para um diretório que contenha conteúdo adicional a ser incorporado no bootstrapper. Pode criar esse diretório utilizando o comando «0install export».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Permite ao utilizador escolher um caminho personalizado para armazenar implementações.</value>
+    <value>Permite ao utilizador escolher um caminho personalizado para guardar as implementações.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>{SPACE} Mostra a estimativa do espaço em disco necessário (em bytes). Define implicitamente --customizable-store-path também.</value>
+    <value>Mostra a estimativa do espaço em disco {SPACE} necessário (em bytes). Define implicitamente também a opção --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -116,11 +116,11 @@ Pode redistribuir cópias deste programa nos termos da Licença Pública Geral R
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} e de linha de comando a passar para o '0install integrate'. Deixe por definir para não chamar o '0install integrate' de todo.</value>
+    <value>{ARGUMENTS} o de linha de comandos a passar para o «0install integrate». Deixe por definir para não chamar o «0install integrate» de todo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Escreva o bootstrapper em {PATH}.</value>
+    <value>Escreva o programa de inicialização em {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -132,7 +132,7 @@ Pode redistribuir cópias deste programa nos termos da Licença Pública Geral R
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Exibir informações sobre a versão.</value>
+    <value>Mostrar informações sobre a versão.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -84,19 +84,19 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Extra opdrachtregel {ARGUMENTS} en die moeten worden doorgegeven aan de applicatie die door de feed wordt gestart.</value>
+    <value>Extra commandoregel {ARGUMENTS} en die moeten worden doorgegeven aan de applicatie die door de feed wordt gestart.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Geldt alleen als Zero Install nog niet is geïmplementeerd.</value>
+    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Dit is alleen van toepassing als Zero Install nog niet is geïmplementeerd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Stel een Zero Install-configuratie {0:OPTION} in op een specifieke {1:VALUE}. Overschrijft bestaande configuratiebestanden alleen als Zero Install nog niet is geïmplementeerd.</value>
+    <value>Stel een Zero Install-configuratie {0:OPTION} in op een specifieke {1:VALUE}. Bestaande configuratiebestanden worden alleen overschreven als Zero Install nog niet is geïmplementeerd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} naar een map met extra inhoud die in de bootstrapper moet worden ingebed. U kunt een dergelijke map genereren met '0install export'.</value>
+    <value>{PATH} naar een map met aanvullende inhoud die in de bootstrapper moet worden opgenomen. U kunt een dergelijke map genereren met '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -116,7 +116,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Command-line- {ARGUMENTS} e om door te geven aan '0install integrate'. Laat deze instelling ongewijzigd om '0install integrate' helemaal niet aan te roepen.</value>
+    <value>Opdrachtregel {ARGUMENTS} e die moet worden doorgegeven aan '0install integrate'. Laat deze instelling oningevuld om '0install integrate' helemaal niet aan te roepen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -128,7 +128,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} of het pad naar het uitvoerbare bestand van de bootstrap-sjabloon. Laat leeg om te downloaden vanaf de standaardlocatie.</value>
+    <value>{URI} of het pad naar het uitvoerbare bestand van de bootstrap-sjabloon. Laat dit veld leeg om te downloaden vanaf de standaardlocatie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
