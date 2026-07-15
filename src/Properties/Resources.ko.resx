@@ -75,16 +75,16 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>생성된 '{0}'</value>
+    <value>'{0}' 생성됨</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>이 프로그램은 법이 허용하는 범위 내에서 어떠한 보증도 제공하지 않습니다.
-귀하는 GNU 약소 일반 공중 사용 허가서(GNU Lesser General Public License)의 조건에 따라 이 프로그램의 사본을 재배포할 수 있습니다.</value>
+사용자는 GNU 약소 일반 공중 사용 허가서(GNU Lesser General Public License)의 조건에 따라 이 프로그램의 사본을 재배포할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>피드가 실행하는 애플리케이션에 전달할 추가 명령줄 {ARGUMENTS}.</value>
+    <value>피드에 의해 실행되는 애플리케이션에 전달할 추가 명령줄 {ARGUMENTS}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -100,11 +100,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>사용자가 구현 파일을 저장할 사용자 지정 경로를 선택할 수 있도록 합니다.</value>
+    <value>사용자가 구현 코드를 저장할 사용자 지정 경로를 선택할 수 있도록 합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>필요한 예상 디스크 공간 {SPACE} 을 바이트 단위로 표시합니다. --customizable-store-path 옵션도 암시적으로 설정합니다.</value>
+    <value>예상되는 디스크 {SPACE} (바이트 단위)를 표시합니다. --customizable-store-path 옵션도 암시적으로 설정합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -128,7 +128,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} 또는 부트스트랩 템플릿 실행 파일의 경로. 기본 위치에서 다운로드하려면 설정하지 마십시오.</value>
+    <value>{URI} 또는 부트스트랩 템플릿 실행 파일의 경로. 설정하지 않으면 기본 위치에서 다운로드합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

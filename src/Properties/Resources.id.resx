@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Dibuat '{0}'</value>
+    <value>Dihasilkan '{0}'</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -92,7 +92,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Tetapkan konfigurasi Zero Install {0:OPTION} ke {1:VALUE} tertentu. Hanya akan mengganti berkas konfigurasi yang sudah ada jika Zero Install belum diinstal.</value>
+    <value>Tetapkan konfigurasi Zero Install {0:OPTION} ke {1:VALUE} tertentu. Hanya akan mengganti berkas konfigurasi yang sudah ada jika Zero Install belum diimplementasikan.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -100,11 +100,11 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Berikan opsi kepada pengguna untuk memilih jalur khusus untuk menyimpan implementasi.</value>
+    <value>Menawarkan pengguna untuk memilih jalur khusus untuk menyimpan implementasi.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Menampilkan perkiraan ruang disk yang diperlukan ( {SPACE} ) (dalam byte). Secara implisit juga menetapkan --customizable-store-path.</value>
+    <value>Menampilkan perkiraan ruang disk yang diperlukan ( {SPACE} ) (dalam byte). Secara implisit juga menetapkan opsi --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -120,7 +120,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Tulis bootstrapper ke {PATH}.</value>
+    <value>Tulis program bootstrapper ke {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -136,7 +136,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Penggunaan:</value>
+    <value>Cara penggunaan:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">

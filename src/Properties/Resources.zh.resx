@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>构建一个定制的 Zero Install 引导程序，用于运行或集成特定的软件源。</value>
+    <value>用于构建定制化的 Zero Install 引导程序，以运行或集成特定的源。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>文件 '{0}' 已存在。请使用 --force 参数进行覆盖。</value>
+    <value>文件“{0} ”已存在。请使用 --force 选项进行覆盖。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>生成的 '{0}'</value>
+    <value>生成了“{0} ”</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -88,7 +88,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>目录的{URI} ，用于替换默认目录。仅在尚未部署 Zero Install 时适用。</value>
+    <value>目录的{URI} ，用于替换默认目录。仅在尚未部署 Zero Install 的情况下适用。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} 指向包含需嵌入引导程序的附加内容的目录。您可以使用 '0install export' 命令生成此类目录。</value>
+    <value>{PATH} 指向一个包含需嵌入引导程序中的附加内容的目录。您可以使用 '0install export' 命令生成此类目录。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>显示所需的估计磁盘空间（以字节为单位）：{SPACE} 。同时会隐式设置 --customizable-store-path。</value>
+    <value>显示所需的估计磁盘空间{SPACE} （单位为字节）。同时会隐式设置 --customizable-store-path 选项。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -116,7 +116,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>传递给 '0install integrate' 的命令行参数{ARGUMENTS} 。若未设置，则完全不调用 '0install integrate'。</value>
+    <value>要传递给“0install integrate”的命令行{ARGUMENTS} 。若未设置，则完全不调用“0install integrate”。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">

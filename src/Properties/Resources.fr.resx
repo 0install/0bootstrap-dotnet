@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Création d'un programme d'amorçage</value>
+    <value>Création du programme d'amorçage</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Crée un programme d'amorçage Zero Install personnalisé pour exécuter ou intégrer un flux spécifique.</value>
+    <value>Permet de créer un programme de démarrage Zero Install personnalisé pour exécuter ou intégrer un flux spécifique.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Le fichier «{0} » existe déjà. Utilisez --force pour le remplacer.</value>
+    <value>Le fichier «{0} » existe déjà. Utilisez l'option --force pour le remplacer.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Génération de «{0} »</value>
+    <value>Fichier généré : «{0} »</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -84,7 +84,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>{ARGUMENTS} s supplémentaires à transmettre à l'application lancée par le flux via la ligne de commande.</value>
+    <value>{ARGUMENTS} s supplémentaires à transmettre via la ligne de commande à l'application lancée par le flux.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -104,7 +104,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Affiche l'{SPACE} e estimée requise sur le disque (en octets). Définit implicitement --customizable-store-path également.</value>
+    <value>Affiche l'{SPACE} e de disque estimée requise (en octets). Définit implicitement l'option --customizable-store-path également.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -116,7 +116,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} s de ligne de commande à passer à « 0install integrate ». Ne rien définir pour ne pas appeler « 0install integrate » du tout.</value>
+    <value>{ARGUMENTS} s de ligne de commande à transmettre à « 0install integrate ». Ne rien définir pour ne pas appeler « 0install integrate » du tout.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">

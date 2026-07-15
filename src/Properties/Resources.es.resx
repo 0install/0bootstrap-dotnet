@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Compila un Bootstrapper de Zero Install personalizado para ejecutar o integrar un feed específico.</value>
+    <value>Compila un «Zero Install Bootstrapper» personalizado para ejecutar o integrar una fuente específica.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>El archivo «{0} » ya existe. Usa --force para sobrescribirlo.</value>
+    <value>El archivo «{0} » ya existe. Utiliza --force para sobrescribirlo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Generado «{0} »</value>
+    <value>Se ha generado «{0} »</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -88,7 +88,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>El archivo ` {URI} ` del catálogo para sustituir el catálogo predeterminado. Solo se aplica si Zero Install aún no está implementado.</value>
+    <value>La ruta « {URI} » del catálogo para sustituir el catálogo predeterminado. Solo se aplica si Zero Install aún no está instalado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -104,7 +104,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>{SPACE} Muestra el espacio en disco estimado necesario (en bytes). También configura implícitamente --customizable-store-path.</value>
+    <value>Muestra el e {SPACE} e estimado de espacio en disco necesario (en bytes). También configura implícitamente la opción --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -116,7 +116,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} e de línea de comandos que se pasa a «0install integrate». Déjalo sin definir para no llamar a «0install integrate» en absoluto.</value>
+    <value>{ARGUMENTS} e de línea de comandos que se debe pasar a «0install integrate». Déjalo sin definir para no llamar a «0install integrate» en absoluto.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -140,7 +140,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Número incorrecto de argumentos. Inténtalo de nuevo. {0}</value>
+    <value>Número incorrecto de argumentos. Intenta {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
