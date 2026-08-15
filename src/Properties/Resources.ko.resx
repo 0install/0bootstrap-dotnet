@@ -79,8 +79,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>이 프로그램은 법이 허용하는 범위 내에서 어떠한 보증도 제공하지 않습니다.
-사용자는 GNU 약소 일반 공중 사용 허가서(GNU Lesser General Public License)의 조건에 따라 이 프로그램의 사본을 재배포할 수 있습니다.</value>
+    <value>이 프로그램은 법이 허용하는 범위 내에서 어떠한 보증도 제공되지 않습니다.
+사용자는 GNU 약소 일반 공중 사용 허가서(GNU Lesser General Public License)의 조건에 따라 이 프로그램의 복사본을 재배포할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>예상되는 디스크 {SPACE} (바이트 단위)를 표시합니다. --customizable-store-path 옵션도 암시적으로 설정합니다.</value>
+    <value>필요한 예상 디스크 공간 {SPACE} 을 바이트 단위로 표시합니다. 또한 --customizable-store-path 옵션도 암시적으로 설정합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">

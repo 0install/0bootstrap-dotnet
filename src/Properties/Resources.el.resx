@@ -84,7 +84,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Πρόσθετες παράμετροι γραμμής εντολών ( {ARGUMENTS} ) που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
+    <value>Πρόσθετες παράμετροι γραμμής εντολών {ARGUMENTS} που πρέπει να περάσετε στην εφαρμογή που εκκινείται από το feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Δίνει τη δυνατότητα στον χρήστη να επιλέξει μια προσαρμοσμένη διαδρομή για την αποθήκευση των υλοποιήσεων.</value>
+    <value>Δώστε τη δυνατότητα στον χρήστη να επιλέξει μια προσαρμοσμένη διαδρομή για την αποθήκευση των υλοποιήσεων.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
@@ -116,7 +116,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} της γραμμής εντολών που θα περαστεί στο '0install integrate'. Αφήστε το κενό για να μην κληθεί καθόλου το '0install integrate'.</value>
+    <value>{ARGUMENTS} της γραμμής εντολών που θα περάσει στην εντολή '0install integrate'. Αφήστε το μη ορισμένο για να μην κληθεί καθόλου η εντολή '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">

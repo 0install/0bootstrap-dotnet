@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Сборка программы-загрузчика</value>
+    <value>Сборка программы начальной загрузки</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Создаёт настраиваемый Zero Install Bootstrapper для запуска или интеграции конкретного канала.</value>
+    <value>Создаёт настраиваемый загрузочный модуль Zero Install для запуска или интеграции конкретного канала.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Сгенерировано «{0} »</value>
+    <value>Сгенерировано: «{0} »</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -84,19 +84,19 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Дополнительные {ARGUMENTS} ы командной строки, которые необходимо передать приложению, запускаемому фидом.</value>
+    <value>Дополнительные аргументы командной строки ( {ARGUMENTS} ), которые необходимо передать приложению, запускаемому фидом.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} каталога для замены каталога по умолчанию. Применимо только в том случае, если Zero Install еще не развернут.</value>
+    <value>{URI} каталога для замены каталога по умолчанию. Применимо только в том случае, если Zero Install ещё не развернут.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Укажите конфигурационный файл Zero Install {0:OPTION} для конкретного {1:VALUE}. Переопределяет существующие конфигурационные файлы только в том случае, если Zero Install ещё не развернут.</value>
+    <value>Устанавливает конфигурационный файл Zero Install ( {0:OPTION} ) на определённый путь ( {1:VALUE}). Переопределяет существующие конфигурационные файлы только в том случае, если Zero Install ещё не развернут.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} в каталог, содержащий дополнительный контент, который будет встроен в программу начальной загрузки. Такой каталог можно создать с помощью команды «0install export».</value>
+    <value>{PATH} в каталог, содержащий дополнительный контент, который будет встроен в программу инициализации. Такой каталог можно создать с помощью команды «0install export».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Отображает примерный объем дискового пространства ( {SPACE} ), необходимого для хранения (в байтах). Неявно устанавливает также параметр --customizable-store-path.</value>
+    <value>Отображает примерный объем дискового пространства ( {SPACE} ), необходимого для установки (в байтах). Неявно устанавливает также параметр --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -112,7 +112,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Показать встроенную справку.</value>
+    <value>Отобразить встроенную справку.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
@@ -132,7 +132,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Отобразить информацию о версии.</value>
+    <value>Отображение информации о версии.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

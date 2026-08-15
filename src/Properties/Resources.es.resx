@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Compila un «Zero Install Bootstrapper» personalizado para ejecutar o integrar una fuente específica.</value>
+    <value>Compila un «Zero Install Bootstrapper» personalizado para ejecutar o integrar un feed específico.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -88,7 +88,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>La ruta « {URI} » del catálogo para sustituir el catálogo predeterminado. Solo se aplica si Zero Install aún no está instalado.</value>
+    <value>La ruta {URI} del catálogo para sustituir el catálogo predeterminado. Solo se aplica si Zero Install aún no está instalado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -96,7 +96,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} a un directorio que contenga contenido adicional que se vaya a integrar en el programa de arranque. Puedes generar dicho directorio utilizando «0install export».</value>
+    <value>{PATH} a un directorio que contenga contenido adicional que se vaya a integrar en el programa de inicio. Puedes generar dicho directorio utilizando «0install export».</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
