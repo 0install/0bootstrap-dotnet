@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Сборка программы-загрузчика</value>
+    <value>Сборка программы начальной загрузки</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Создаёт настраиваемый Zero Install Bootstrapper для запуска или интеграции конкретного канала.</value>
+    <value>Создает настраиваемый загрузочный модуль Zero Install для запуска или интеграции конкретного канала.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -84,7 +84,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Дополнительные {ARGUMENTS} ы командной строки, которые необходимо передать приложению, запускаемому фидом.</value>
+    <value>Дополнительные аргументы командной строки ( {ARGUMENTS} ), которые необходимо передать приложению, запускаемому фидом.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Укажите конфигурационный файл Zero Install {0:OPTION} для конкретного {1:VALUE}. Переопределяет существующие конфигурационные файлы только в том случае, если Zero Install ещё не развернут.</value>
+    <value>Установите конфигурацию Zero Install {0:OPTION} в конкретный каталог {1:VALUE}. Переопределяет существующие файлы конфигурации только в том случае, если Zero Install ещё не развернут.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -112,11 +112,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Показать встроенную справку.</value>
+    <value>Отобразить встроенную справку.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS}, передаваемый в командной строке команде «0install integrate». Оставьте не заданным, чтобы вообще не вызывать «0install integrate».</value>
+    <value>{ARGUMENTS}, передаваемый в командной строке команде «0install integrate». Оставьте значение не заданным, чтобы команда «0install integrate» не вызывалась вообще.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">

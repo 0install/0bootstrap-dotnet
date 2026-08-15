@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Bouwt een aangepaste Zero Install Bootstrapper voor het uitvoeren of integreren van een specifieke feed.</value>
+    <value>Stelt een aangepaste Zero Install Bootstrapper samen voor het uitvoeren of integreren van een specifieke feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -84,11 +84,11 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Extra commandoregel {ARGUMENTS} en die moeten worden doorgegeven aan de applicatie die door de feed wordt gestart.</value>
+    <value>Extra commandoregel {ARGUMENTS} en die moeten worden doorgegeven aan de toepassing die door de feed wordt gestart.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Dit is alleen van toepassing als Zero Install nog niet is geïmplementeerd.</value>
+    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Geldt alleen als Zero Install nog niet is geïmplementeerd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">

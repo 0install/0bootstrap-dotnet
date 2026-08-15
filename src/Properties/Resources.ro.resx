@@ -88,7 +88,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} -ul catalogului care va înlocui catalogul implicit. Se aplică numai dacă Zero Install nu este deja implementat.</value>
+    <value>{URI} ul catalogului care va înlocui catalogul implicit. Se aplică numai dacă Zero Install nu este deja implementat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">

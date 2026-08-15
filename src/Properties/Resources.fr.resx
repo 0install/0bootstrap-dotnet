@@ -59,11 +59,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Création du programme d'amorçage</value>
+    <value>Compilation du programme de démarrage</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Permet de créer un programme de démarrage Zero Install personnalisé pour exécuter ou intégrer un flux spécifique.</value>
+    <value>Il permet de créer un programme de démarrage Zero Install personnalisé pour exécuter ou intégrer un flux spécifique.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Fichier généré : «{0} »</value>
+    <value>Fichier généré «{0} »</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -104,7 +104,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Affiche l'{SPACE} e de disque estimée requise (en octets). Définit implicitement l'option --customizable-store-path également.</value>
+    <value>Affiche l'{SPACE} e estimée requise sur le disque (en octets). Définit implicitement l'option --customizable-store-path également.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">

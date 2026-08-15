@@ -71,7 +71,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Il file '{0}' esiste già. Utilizzare --force per sovrascriverlo.</value>
+    <value>Il file "{0}" esiste già. Utilizzare l'opzione --force per sovrascriverlo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} in una directory contenente contenuti aggiuntivi da incorporare nel bootstrapper. È possibile generare tale directory utilizzando '0install export'.</value>
+    <value>{PATH} in una directory contenente contenuti aggiuntivi da incorporare nel bootstrapper. È possibile generare tale directory utilizzando il comando '0install export'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -116,7 +116,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} e della riga di comando da passare a '0install integrate'. Lasciare non impostato per non chiamare affatto '0install integrate'.</value>
+    <value>{ARGUMENTS} e da riga di comando da passare a '0install integrate'. Lasciare non impostato per non chiamare affatto '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
