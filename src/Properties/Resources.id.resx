@@ -128,7 +128,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} atau jalur ke file eksekusi templat bootstrap. Biarkan tidak diatur untuk mengunduh dari lokasi default.</value>
+    <value>{URI} atau jalur ke file eksekusi templat bootstrap. Biarkan kosong untuk mengunduh dari lokasi default.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
