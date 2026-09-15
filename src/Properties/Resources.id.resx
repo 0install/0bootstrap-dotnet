@@ -92,7 +92,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Tetapkan konfigurasi Zero Install {0:OPTION} ke {1:VALUE} tertentu. Hanya akan mengganti berkas konfigurasi yang sudah ada jika Zero Install belum diimplementasikan.</value>
+    <value>Tetapkan konfigurasi Zero Install {0:OPTION} ke {1:VALUE} tertentu. Hanya akan menggantikan berkas konfigurasi yang sudah ada jika Zero Install belum diinstal.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">

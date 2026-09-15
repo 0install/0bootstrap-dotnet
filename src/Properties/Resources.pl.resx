@@ -84,11 +84,11 @@ Kopie tego programu można rozpowszechniać na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Dodatkowe {ARGUMENTS} y wiersza poleceń, które należy przekazać do aplikacji uruchamianej przez kanał.</value>
+    <value>Dodatkowe {ARGUMENTS} y z wiersza poleceń, które należy przekazać do aplikacji uruchamianej przez kanał.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>{URI} a katalogu, który ma zastąpić katalog domyślny. Dotyczy to wyłącznie sytuacji, w których Zero Install nie zostało jeszcze wdrożone.</value>
+    <value>{URI} a katalogu, który ma zastąpić katalog domyślny. Ma zastosowanie tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -96,7 +96,7 @@ Kopie tego programu można rozpowszechniać na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} do katalogu zawierającego dodatkową zawartość, która ma zostać osadzona w programie rozruchowym. Taki katalog można wygenerować za pomocą polecenia „0install export”.</value>
+    <value>{PATH} do katalogu zawierającego dodatkową zawartość, która ma zostać osadzona w programie bootstrapper. Taki katalog można wygenerować za pomocą polecenia „0install export”.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,7 +104,7 @@ Kopie tego programu można rozpowszechniać na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Wyświetla szacowaną ilość miejsca na dysku ( {SPACE} ) wymaganą do instalacji (w bajtach). Ustawia również domyślnie opcję --customizable-store-path.</value>
+    <value>Wyświetla szacunkową ilość miejsca na dysku ( {SPACE} ) wymaganą do przechowywania pakietu (w bajtach). Ukrycie ustawia również opcję --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -120,7 +120,7 @@ Kopie tego programu można rozpowszechniać na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Napisz program rozruchowy i prześlij go na adres {PATH}.</value>
+    <value>Napisz program rozruchowy i umieść go pod adresem {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +128,7 @@ Kopie tego programu można rozpowszechniać na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap. Jeśli nie zostanie ustawione, plik zostanie pobrany z domyślnej lokalizacji.</value>
+    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap. Pozostaw puste, aby pobrać z domyślnej lokalizacji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

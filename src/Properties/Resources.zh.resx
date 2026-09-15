@@ -80,7 +80,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>在法律允许的范围内，本程序不提供任何形式的保证。
-您可以根据 GNU 较少通用公共许可证的条款重新分发本程序的副本。</value>
+您可以根据 GNU 较宽松通用公共许可证的条款重新分发本程序的副本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} 指向一个包含需嵌入引导程序中的附加内容的目录。您可以使用 '0install export' 命令生成此类目录。</value>
+    <value>{PATH} 指向一个包含需嵌入引导程序的附加内容的目录。您可以使用 '0install export' 命令生成此类目录。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>显示所需的估计磁盘空间{SPACE} （单位为字节）。同时会隐式设置 --customizable-store-path 选项。</value>
+    <value>显示所需的估计磁盘空间{SPACE} （单位：字节）。同时会隐式设置 --customizable-store-path 选项。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">

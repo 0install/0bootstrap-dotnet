@@ -71,7 +71,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Il file "{0}" esiste già. Utilizzare l'opzione --force per sovrascriverlo.</value>
+    <value>Il file '{0}' esiste già. Utilizzare l'opzione --force per sovrascriverlo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Imposta l'{0:OPTION} e di configurazione di Zero Install su un {1:VALUE} specifico. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già stato distribuito.</value>
+    <value>Imposta l'{0:OPTION} e di configurazione di Zero Install su un {1:VALUE} specifico. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già stato implementato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -120,7 +120,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Scrivere il programma di avvio su {PATH}.</value>
+    <value>Scrivi il programma di avvio su {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

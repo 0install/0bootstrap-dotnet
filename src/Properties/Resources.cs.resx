@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Vytvoří přizpůsobený Zero Install Bootstrapper pro spuštění nebo integraci konkrétního zdroje.</value>
+    <value>Vytvoří přizpůsobený nástroj Zero Install Bootstrapper pro spuštění nebo integraci konkrétního zdroje.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -71,7 +71,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>Soubor „{0} “ již existuje. K přepsání použijte volbu --force.</value>
+    <value>Soubor „{0} “ již existuje. Použijte --force k přepsání.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
@@ -80,11 +80,11 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Tento program je poskytován BEZ JAKÉKOLIV ZÁRUKY, v rozsahu povoleném zákonem.
-Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Lesser General Public License.</value>
+Kopie tohoto programu můžete šířit v souladu s podmínkami GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Další {ARGUMENTS} y příkazového řádku, které lze předat aplikaci spuštěné kanálem.</value>
+    <value>Další {ARGUMENTS} y příkazového řádku, které lze předat aplikaci spuštěné prostřednictvím kanálu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -100,11 +100,11 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Nabídněte uživateli možnost zvolit vlastní cestu pro ukládání implementací.</value>
+    <value>Nabídněte uživateli možnost zvolit si vlastní cestu pro ukládání implementací.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Zobrazí odhadovanou potřebnou kapacitu disku ( {SPACE} ) (v bajtech). Implicitně nastaví také --customizable-store-path.</value>
+    <value>Zobrazí odhadovanou velikost diskového úložiště {SPACE} (v bajtech). Implicitně nastaví také --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -120,7 +120,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Napište bootstrapper na adresu {PATH}.</value>
+    <value>Napište bootstrapper a odešlete ho na adresu {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +128,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} nebo cesta ke spustitelnému souboru šablony bootstrap. Pokud není nastaveno, stáhne se z výchozího umístění.</value>
+    <value>{URI} nebo cesta k spustitelnému souboru šablony bootstrap. Pokud není nastaveno, stáhne se z výchozího umístění.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

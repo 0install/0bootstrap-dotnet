@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>特定のフィードを実行または統合するための、カスタマイズされたZero Installブートストラッパーをビルドします。</value>
+    <value>特定のフィードを実行または統合するための、カスタマイズされたZero Installブートストラッパーを構築します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -80,7 +80,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>本プログラムは、法律で認められる範囲において、一切の保証を伴いません。
-本プログラムの複製物は、GNU Lesser General Public License の条件に従って再配布することができます。</value>
+本プログラムの複製物は、GNU Lesser General Public Licenseの条件に従って再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Zero Installの設定ファイル{0:OPTION} を特定の{1:VALUE} に設定します。Zero Installがまだデプロイされていない場合にのみ、既存の設定ファイルを上書きします。</value>
+    <value>Zero Installの設定ファイル{0:OPTION} を特定の{1:VALUE} に設定します。Zero Installがまだデプロイされていない場合のみ、既存の設定ファイルを上書きします。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">

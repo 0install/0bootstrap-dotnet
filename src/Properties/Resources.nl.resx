@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Stelt een aangepaste Zero Install Bootstrapper samen voor het uitvoeren of integreren van een specifieke feed.</value>
+    <value>Bouwt een aangepaste Zero Install Bootstrapper voor het uitvoeren of integreren van een specifieke feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -88,7 +88,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Geldt alleen als Zero Install nog niet is geïmplementeerd.</value>
+    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Dit is alleen van toepassing als Zero Install nog niet is geïmplementeerd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
