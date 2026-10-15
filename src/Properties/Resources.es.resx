@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Compila un «Zero Install Bootstrapper» personalizado para ejecutar o integrar un feed específico.</value>
+    <value>Crea un «Bootstrapper» de Zero Install personalizado para ejecutar o integrar una fuente específica.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -79,7 +79,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Este programa se distribuye SIN NINGÚN TIPO DE GARANTÍA, en la medida en que lo permita la ley.
+    <value>Este programa se proporciona SIN NINGÚN TIPO DE GARANTÍA, en la medida en que lo permita la ley.
 Puedes redistribuir copias de este programa bajo los términos de la Licencia Pública General Reducida de GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -88,7 +88,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>La ruta {URI} del catálogo para sustituir el catálogo predeterminado. Solo se aplica si Zero Install aún no está instalado.</value>
+    <value>La ruta « {URI} » del catálogo para sustituir el catálogo predeterminado. Solo se aplica si Zero Install aún no está implementado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -104,7 +104,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Muestra el e {SPACE} e estimado de espacio en disco necesario (en bytes). También configura implícitamente la opción --customizable-store-path.</value>
+    <value>Muestra el espacio en disco estimado {SPACE} necesario (en bytes). También configura implícitamente la opción --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -140,7 +140,7 @@ Puedes redistribuir copias de este programa bajo los términos de la Licencia P�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongNumberOfArguments" xml:space="preserve">
-    <value>Número incorrecto de argumentos. Intenta {0}</value>
+    <value>Número incorrecto de argumentos. Inténtalo de nuevo {0}</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

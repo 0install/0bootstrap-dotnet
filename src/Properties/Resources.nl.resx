@@ -88,7 +88,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Dit is alleen van toepassing als Zero Install nog niet is geïmplementeerd.</value>
+    <value>De {URI} van de catalogus ter vervanging van de standaardcatalogus. Geldt alleen als Zero Install nog niet is geïmplementeerd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -128,7 +128,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} of het pad naar het uitvoerbare bestand van de bootstrap-sjabloon. Laat dit veld leeg om te downloaden vanaf de standaardlocatie.</value>
+    <value>{URI} of het pad naar het uitvoerbare bestand van de bootstrap-sjabloon. Laat dit veld leeg om het bestand vanaf de standaardlocatie te downloaden.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

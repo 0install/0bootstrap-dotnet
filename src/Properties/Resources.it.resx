@@ -92,7 +92,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Imposta l'{0:OPTION} e di configurazione di Zero Install su un {1:VALUE} specifico. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già stato implementato.</value>
+    <value>Imposta l'{0:OPTION} e di configurazione di Zero Install su un {1:VALUE} specifico. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già stato distribuito.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -116,11 +116,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} e da riga di comando da passare a '0install integrate'. Lasciare non impostato per non chiamare affatto '0install integrate'.</value>
+    <value>{ARGUMENTS} e della riga di comando da passare a '0install integrate'. Lasciare non impostato per non chiamare affatto '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Scrivi il programma di avvio su {PATH}.</value>
+    <value>Scrivere il programma di avvio su {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
