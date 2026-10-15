@@ -84,11 +84,11 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>{ARGUMENTS} s adicionais de linha de comandos a passar para a aplicação iniciada pelo feed.</value>
+    <value>{ARGUMENTS} s adicionais da linha de comandos a passar para a aplicação iniciada pelo feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>O {URI} do catálogo para substituir o catálogo predefinido. Aplica-se apenas se o Zero Install ainda não estiver implementado.</value>
+    <value>O ficheiro « {URI} » do catálogo para substituir o catálogo predefinido. Aplica-se apenas se o Zero Install ainda não estiver implementado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
@@ -104,7 +104,7 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Mostra o espaço em disco estimado {SPACE} necessário (em bytes). Define implicitamente também a opção --customizable-store-path.</value>
+    <value>Mostra a estimativa do espaço em disco {SPACE} necessário (em bytes). Define implicitamente também a opção --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">

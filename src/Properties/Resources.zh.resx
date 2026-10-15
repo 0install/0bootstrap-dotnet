@@ -84,7 +84,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>传递给由 feed 启动的应用程序的额外命令行{ARGUMENTS} 。</value>
+    <value>传递给由该源启动的应用程序的额外命令行{ARGUMENTS} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>显示所需的估计磁盘空间{SPACE} （单位：字节）。同时会隐式设置 --customizable-store-path 选项。</value>
+    <value>显示所需的估计磁盘空间{SPACE} （单位为字节）。同时会隐式设置 --customizable-store-path 选项。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
