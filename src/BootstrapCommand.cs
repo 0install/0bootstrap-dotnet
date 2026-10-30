@@ -152,7 +152,7 @@ internal class BootstrapCommand
     public void Execute()
     {
         (var feed, string? keyFingerprint) = DownloadFeed();
-        _outputFile ??= feed.Name + ".exe";
+        _outputFile ??= (_integrateArgs == null ? "run " : "integrate ") + feed.Name + ".exe";
 
         if (!_force && File.Exists(_outputFile)) throw new IOException(string.Format(Resources.FileAlreadyExists, _outputFile));
 
