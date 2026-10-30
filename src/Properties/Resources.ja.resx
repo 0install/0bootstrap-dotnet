@@ -58,12 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>ブートストラップツール{0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>ブートストラップツールのビルド</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>特定のフィードを実行または統合するための、カスタマイズされたZero Installブートストラッパーをビルドします。</value>
+    <value>特定のフィードを実行または統合するための、カスタマイズされたZero Installブートストラップを作成します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -104,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>必要なディスク容量{SPACE} の推定値（バイト単位）を表示します。これにより、--customizable-store-pathも暗黙的に設定されます。</value>
+    <value>必要なディスク容量の推定値（{SPACE} 、バイト単位）を表示します。これにより、--customizable-store-path も暗黙的に設定されます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -128,8 +132,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} またはbootstrapテンプレート実行ファイルへのパス。デフォルトの場所からダウンロードする場合は未設定のままにしてください。</value>
-    <comment>Manually overriden.</comment>
+    <value>{URI} または、ブートストラップテンプレート実行ファイルへのパス、あるいは 0install.exe と zero-install.exe が含まれており、自動的に選択されるディレクトリへのパスを指定します。設定しない場合は、デフォルトの場所からダウンロードされます。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>バージョン情報を表示します。</value>

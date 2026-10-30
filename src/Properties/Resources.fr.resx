@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Programme de démarrage pour {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Compilation du programme de démarrage</value>
     <comment>Automatically translated.</comment>
@@ -104,7 +108,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Affiche l'{SPACE} e estimée requise sur le disque (en octets). Définit implicitement l'option --customizable-store-path également.</value>
+    <value>Affiche l'{SPACE} e estimée requise sur le disque (en octets). Définit également implicitement l'option --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -128,8 +132,8 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ou le chemin d'accès à l'exécutable du modèle bootstrap. Laissez ce champ vide pour télécharger à partir de l'emplacement par défaut.</value>
-    <comment>Manually overriden.</comment>
+    <value>{URI} ou le chemin d'accès à l'exécutable du modèle de démarrage, ou le chemin d'accès à un répertoire contenant les fichiers 0install.exe et zero-install.exe, parmi lesquels le choix se fera automatiquement. Ne rien indiquer pour télécharger depuis l'emplacement par défaut.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Affiche les informations de version.</value>

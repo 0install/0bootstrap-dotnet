@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper para {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Construção do bootstrapper</value>
     <comment>Manually overriden.</comment>
@@ -128,8 +132,8 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ou caminho para o executável do modelo bootstrap. Deixar não definido para descarregar a partir da localização predefinida.</value>
-    <comment>Manually overriden.</comment>
+    <value>{URI} ou o caminho para o executável do modelo de inicialização, ou o caminho para um diretório que contenha os ficheiros 0install.exe e zero-install.exe, para que a escolha seja feita automaticamente. Deixe este parâmetro por definir para efetuar o download a partir da localização predefinida.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Mostrar informações sobre a versão.</value>

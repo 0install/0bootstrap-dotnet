@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper για {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Δημιουργία προγράμματος εκκίνησης</value>
     <comment>Automatically translated.</comment>
@@ -84,7 +88,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Πρόσθετα {ARGUMENTS} s γραμμής εντολών που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
+    <value>Πρόσθετες παράμετροι γραμμής εντολών ( {ARGUMENTS} ) που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -116,7 +120,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} της γραμμής εντολών που θα περάσει στο '0install integrate'. Αφήστε το μη ορισμένο για να μην κληθεί καθόλου το '0install integrate'.</value>
+    <value>{ARGUMENTS} της γραμμής εντολών που θα περάσει στο '0install integrate'. Αφήστε το κενό για να μην κληθεί καθόλου το '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -128,8 +132,8 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ή διαδρομή προς το εκτελέσιμο πρότυπο bootstrap. Αφήστε την επιλογή unset για λήψη από την προεπιλεγμένη τοποθεσία.</value>
-    <comment>Manually overriden.</comment>
+    <value>{URI} ή η διαδρομή προς το εκτελέσιμο πρότυπο εκκίνησης, ή η διαδρομή προς έναν κατάλογο που περιέχει τα αρχεία 0install.exe και zero-install.exe, από τα οποία θα γίνει αυτόματη επιλογή. Αφήστε το πεδίο κενό για λήψη από την προεπιλεγμένη τοποθεσία.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Εμφάνιση πληροφοριών έκδοσης.</value>
