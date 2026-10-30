@@ -90,7 +90,7 @@ internal class BootstrapCommand
     /// <summary>A directory containing additional content to be embedded in the bootstrapper.</summary>
     private DirectoryInfo? _contentDir;
 
-    /// <summary>Path or URI to the boostrap template executable.</summary>
+    /// <summary>Path or URI to the boostrap template executable, or path to a directory containing <c>0install.exe</c> and <c>zero-install.exe</c>.</summary>
     private string? _template;
 
     private OptionSet BuildOptions()
@@ -160,7 +160,7 @@ internal class BootstrapCommand
         string? splashScreen = feed.SplashScreens.GetIcon(Icon.MimeTypePng)?.To(_iconStore.GetFresh);
 
         using var builder = new BootstrapBuilder(_handler);
-        builder.Initialize(_template ?? GetDefaultTemplate(feed.NeedsTerminal));
+        builder.Initialize(GetTemplate(feed.NeedsTerminal));
 
         using var bootstrapConfig = BuildBootstrapConfig(feed, keyFingerprint, customSplashScreen: splashScreen != null);
         builder.ModifyEmbeddedResources(bootstrapConfig, splashScreen, _contentDir);
@@ -187,10 +187,16 @@ internal class BootstrapCommand
         );
     }
 
-    private string GetDefaultTemplate(bool needsTerminal)
-        => needsTerminal && _integrateArgs == null && !_customizableStorePath
-            ? "https://get.0install.net/0install.exe" // CLI
-            : "https://get.0install.net/zero-install.exe"; // GUI
+    private string GetTemplate(bool needsTerminal)
+    {
+        string fileName = needsTerminal && _integrateArgs == null && !_customizableStorePath
+            ? "0install.exe" // CLI
+            : "zero-install.exe"; // GUI
+
+        if (_template == null) return "https://get.0install.net/" + fileName;
+        if (Directory.Exists(_template)) return Path.Combine(_template, fileName);
+        return _template;
+    }
 
     private Stream BuildBootstrapConfig(Feed feed, string? keyFingerprint, bool customSplashScreen)
     {

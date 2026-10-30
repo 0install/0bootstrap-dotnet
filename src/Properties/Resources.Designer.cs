@@ -223,7 +223,7 @@ namespace ZeroInstall.Bootstrap.Builder.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {URI} or path to the boostrap template executable. Leave unset to download from default location..
+        ///   Looks up a localized string similar to {URI} or path to the bootstrap template executable, or path to a directory containing 0install.exe and zero-install.exe to choose from automatically. Leave unset to download from default location..
         /// </summary>
         internal static string OptionTemplate {
             get {
