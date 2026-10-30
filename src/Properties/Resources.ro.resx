@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper pentru {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Construirea bootstrapper-ului</value>
     <comment>Manually overriden.</comment>
@@ -128,8 +132,8 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} sau calea către executabilul șablonului bootstrap. Lăsați nestabilit pentru a descărca din locația implicită.</value>
-    <comment>Manually overriden.</comment>
+    <value>{URI} sau calea către fișierul executabil al șablonului bootstrap, sau calea către un director care conține fișierele 0install.exe și zero-install.exe, dintre care se va alege automat unul. Lăsați necompletat pentru a descărca din locația implicită.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Afișează informații despre versiune.</value>

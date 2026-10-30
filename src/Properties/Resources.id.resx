@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper untuk {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Membuat bootstrapper</value>
     <comment>Automatically translated.</comment>
@@ -128,7 +132,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} atau jalur ke file eksekusi templat bootstrap. Biarkan kosong untuk mengunduh dari lokasi default.</value>
+    <value>{URI} atau jalur ke file eksekusi templat bootstrap, atau jalur ke direktori yang berisi 0install.exe dan zero-install.exe untuk dipilih secara otomatis. Biarkan kosong untuk mengunduh dari lokasi default.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

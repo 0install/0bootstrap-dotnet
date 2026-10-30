@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper para {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Criando bootstrapper</value>
     <comment>Manually overriden.</comment>

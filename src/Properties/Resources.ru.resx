@@ -58,12 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Программа для инициализации {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Сборка программы-загрузчика</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Создаёт настраиваемый Zero Install Bootstrapper для запуска или интеграции конкретного канала.</value>
+    <value>Создаёт настраиваемый загрузочный модуль Zero Install для запуска или интеграции конкретного канала.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -92,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Установите конфигурационный файл Zero Install {0:OPTION} в конкретный каталог {1:VALUE}. Переопределяет существующие конфигурационные файлы только в том случае, если Zero Install ещё не развёрнут.</value>
+    <value>Установите конфигурацию Zero Install {0:OPTION} в конкретный каталог {1:VALUE}. Переопределяет существующие файлы конфигурации только в том случае, если Zero Install ещё не развернут.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -104,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Отображает примерный объем дискового пространства, необходимого для хранения (в байтах) ( {SPACE} ). Неявно устанавливает также параметр -- -store-path.</value>
+    <value>Отображает примерный объем дискового пространства, необходимого для хранения данных ( {SPACE} ) (в байтах). Неявно устанавливает также параметр --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -128,8 +132,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} или путь к исполняемому файлу шаблона bootstrap. Оставьте значение без изменения, чтобы загрузить из места по умолчанию.</value>
-    <comment>Manually overriden.</comment>
+    <value>{URI} или путь к исполняемому файлу шаблона bootstrap, или путь к каталогу, содержащему файлы 0install.exe и zero-install.exe, из которых будет произведен автоматический выбор. Оставьте параметр не заданным, чтобы загрузить из местоположения по умолчанию.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Отображение информации о версии.</value>

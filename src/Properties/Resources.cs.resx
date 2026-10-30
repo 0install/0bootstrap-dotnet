@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper pro {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Sestavení bootstrapperu</value>
     <comment>Automatically translated.</comment>
@@ -128,7 +132,7 @@ Kopie tohoto programu můžete šířit v souladu s podmínkami licence GNU Less
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} nebo cesta ke spustitelnému souboru šablony bootstrap. Pokud není nastaveno, stáhne se z výchozího umístění.</value>
+    <value>{URI} nebo cesta ke spustitelnému souboru šablony bootstrap, nebo cesta k adresáři obsahujícímu soubory 0install.exe a zero-install.exe, ze kterých se automaticky vybere. Pokud není nastaveno, stáhne se z výchozího umístění.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

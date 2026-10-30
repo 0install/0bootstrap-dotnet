@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper per {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Costruzione del bootstrapper</value>
     <comment>Manually overriden.</comment>
@@ -120,7 +124,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Scrivere il programma di avvio su {PATH}.</value>
+    <value>Scrivi il programma di avvio su {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,8 +132,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} o il percorso dell'eseguibile del modello bootstrap. Lasciare non impostato per scaricare dal percorso predefinito.</value>
-    <comment>Manually overriden.</comment>
+    <value>{URI} oppure il percorso dell'eseguibile del modello di avvio, oppure il percorso di una directory contenente 0install.exe e zero-install.exe tra cui scegliere automaticamente. Lasciare vuoto per scaricare dalla posizione predefinita.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
     <value>Visualizza le informazioni sulla versione.</value>

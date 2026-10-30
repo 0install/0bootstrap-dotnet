@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Narzędzie do inicjalizacji dla {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Tworzenie programu rozruchowego</value>
     <comment>Automatically translated.</comment>
@@ -75,13 +79,13 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="GeneratedFile" xml:space="preserve">
-    <value>Wygenerowano plik „{0} ”</value>
+    <value>Wygenerowano „{0} ”</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Program ten jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
-Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji GNU Lesser General Public License.</value>
-    <comment>Automatically translated.</comment>
+    <value>Niniejszy program jest dostarczany BEZ ŻADNEJ GWARANCJI, w zakresie dozwolonym przez prawo.
+Możesz rozpowszechniać kopie tego programu na warunkach określonych w licencji GNU Lesser General Public License.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
     <value>Dodatkowe {ARGUMENTS} y wiersza poleceń, które należy przekazać do aplikacji uruchamianej przez kanał.</value>
@@ -92,7 +96,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Ustaw konfigurację Zero Install {0:OPTION} na konkretną {1:VALUE}. Zastępuje istniejące pliki konfiguracyjne tylko wtedy, gdy Zero Install nie jest jeszcze wdrożone.</value>
+    <value>Ustaw konfigurację Zero Install {0:OPTION} na konkretną {1:VALUE}. Zastępuje istniejące pliki konfiguracyjne tylko wtedy, gdy Zero Install nie zostało jeszcze wdrożone.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -128,7 +132,7 @@ Można rozpowszechniać kopie tego programu na warunkach określonyc w licencji 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap. Jeśli nie zostanie ustawione, plik zostanie pobrany z domyślnej lokalizacji.</value>
+    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap, lub ścieżka do katalogu zawierającego pliki 0install.exe i zero-install.exe, spośród których zostanie automatycznie wybrany odpowiedni. Pozostaw puste, aby pobrać z domyślnej lokalizacji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

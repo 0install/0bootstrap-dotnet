@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>Bootstrapper voor {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Bootstrapper bouwen</value>
     <comment>Automatically translated.</comment>
@@ -128,7 +132,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} of het pad naar het uitvoerbare bestand van de bootstrap-sjabloon. Laat dit veld leeg om het bestand vanaf de standaardlocatie te downloaden.</value>
+    <value>{URI} of het pad naar het uitvoerbare bestand van de bootstrap-sjabloon, of het pad naar een map die zowel 0install.exe als zero-install.exe bevat, zodat automatisch een keuze kan worden gemaakt. Laat dit veld leeg om te downloaden vanaf de standaardlocatie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

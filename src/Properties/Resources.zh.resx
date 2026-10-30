@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>用于{0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>构建引导程序</value>
     <comment>Automatically translated.</comment>
@@ -128,7 +132,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} 或引导模板可执行文件的路径。若未设置，则从默认位置下载。</value>
+    <value>{URI} 或引导模板可执行文件的路径，或包含 0install.exe 和 zero-install.exe 的目录路径，以便自动选择。若未设置，则从默认位置下载。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

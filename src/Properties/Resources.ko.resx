@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>다음용 부트스트래퍼 {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>부트스트래퍼 빌드</value>
     <comment>Automatically translated.</comment>
@@ -104,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>필요한 예상 디스크 공간 {SPACE} 을 바이트 단위로 표시합니다. --customizable-store-path 옵션도 암시적으로 설정됩니다.</value>
+    <value>예상되는 디스크 {SPACE} (바이트 단위)를 표시합니다. --customizable-store-path 옵션도 암시적으로 설정됩니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -128,7 +132,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} 또는 부트스트랩 템플릿 실행 파일의 경로. 설정하지 않으면 기본 위치에서 다운로드합니다.</value>
+    <value>{URI} 또는 부트스트랩 템플릿 실행 파일의 경로, 혹은 0install.exe와 zero-install.exe가 포함된 디렉터리의 경로를 지정하여 자동으로 선택하도록 할 수 있습니다. 설정하지 않으면 기본 위치에서 다운로드합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
