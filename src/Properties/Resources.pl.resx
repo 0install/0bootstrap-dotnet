@@ -132,7 +132,7 @@ Możesz rozpowszechniać kopie tego programu na warunkach określonych w licencj
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap, lub ścieżka do katalogu zawierającego pliki 0install.exe i zero-install.exe, spośród których zostanie automatycznie wybrany odpowiedni. Pozostaw puste, aby pobrać z domyślnej lokalizacji.</value>
+    <value>{URI} lub ścieżka do pliku wykonywalnego szablonu bootstrap, lub ścieżka do katalogu zawierającego pliki 0install.exe i zero-install.exe, spośród których zostanie automatycznie wybrany odpowiedni plik. Pozostaw puste, aby pobrać plik z domyślnej lokalizacji.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

@@ -132,7 +132,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah persyaratan GNU Lesser G
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} atau jalur ke file eksekusi templat bootstrap, atau jalur ke direktori yang berisi 0install.exe dan zero-install.exe untuk dipilih secara otomatis. Biarkan kosong untuk mengunduh dari lokasi default.</value>
+    <value>{URI} atau jalur ke file eksekusi templat bootstrap, atau jalur ke direktori yang berisi 0install.exe dan zero-install.exe agar dapat dipilih secara otomatis. Biarkan kosong untuk mengunduh dari lokasi default.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
