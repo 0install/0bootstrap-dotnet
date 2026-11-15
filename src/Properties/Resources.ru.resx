@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Установите конфигурацию Zero Install {0:OPTION} в конкретный каталог {1:VALUE}. Переопределяет существующие файлы конфигурации только в том случае, если Zero Install ещё не развернут.</value>
+    <value>Установите конфигурационный файл Zero Install {0:OPTION} в конкретный каталог {1:VALUE}. Переопределяет существующие конфигурационные файлы только в том случае, если Zero Install ещё не развернут.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Отображает примерный объем дискового пространства, необходимого для хранения данных ( {SPACE} ) (в байтах). Неявно устанавливает также параметр --customizable-store-path.</value>
+    <value>Отображает примерный объем дискового пространства ( {SPACE} ), необходимого для хранения (в байтах). Неявно устанавливает также параметр --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">

@@ -132,7 +132,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii Licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} sau calea către fișierul executabil al șablonului bootstrap, sau calea către un director care conține fișierele 0install.exe și zero-install.exe, dintre care se va alege automat unul. Lăsați necompletat pentru a descărca din locația implicită.</value>
+    <value>{URI} sau calea către fișierul executabil al șablonului bootstrap, sau calea către un director care conține fișierele 0install.exe și zero-install.exe, dintre care se va alege automat. Lăsați necompletat pentru a descărca din locația implicită.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

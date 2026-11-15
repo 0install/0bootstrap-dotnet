@@ -120,11 +120,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} e della riga di comando da passare a '0install integrate'. Lasciare non impostato per non chiamare affatto '0install integrate'.</value>
+    <value>{ARGUMENTS} e da riga di comando da passare a '0install integrate'. Lasciare non impostato per non chiamare affatto '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Scrivi il programma di avvio su {PATH}.</value>
+    <value>Scrivere il programma di avvio su {PATH}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -132,7 +132,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} oppure il percorso dell'eseguibile del modello di avvio, oppure il percorso di una directory contenente 0install.exe e zero-install.exe tra cui scegliere automaticamente. Lasciare vuoto per scaricare dalla posizione predefinita.</value>
+    <value>{URI} oppure il percorso dell'eseguibile del modello di avvio, oppure il percorso di una directory contenente 0install.exe e zero-install.exe tra cui scegliere automaticamente. Lasciare non impostato per scaricare dalla posizione predefinita.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

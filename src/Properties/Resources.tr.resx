@@ -58,6 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BootstrapperFor" xml:space="preserve">
+    <value>{0} için ön yükleyici</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
     <value>Oluşturma ön yükleyicisi</value>
     <comment>Manually overriden.</comment>
@@ -120,7 +124,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
-    <value>Başlatıcı {PATH} içine yazılsın.</value>
+    <value>Ön yükleyici {PATH} içine yazılsın.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -128,7 +132,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>Çalıştırılabilir ön yükleme kalıbı {URI} ya da yolu. Varsayılan konumdan indirilmesi için ayarlamadan bırakın.</value>
+    <value>{URI} veya yürütülebilir ön yükleme kalbının yolu. Otomatik olarak seçilmesi için 0install.exe ve zero-install.exe bulunan bir klasörün yolu. Varsayılan konumdan indirmek için ayarlamadan bırakın.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

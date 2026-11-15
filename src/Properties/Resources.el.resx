@@ -88,7 +88,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Πρόσθετες παράμετροι γραμμής εντολών ( {ARGUMENTS} ) που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
+    <value>Πρόσθετα {ARGUMENTS} s γραμμής εντολών που πρέπει να μεταβιβαστούν στην εφαρμογή που εκκινείται από το feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
@@ -120,7 +120,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} της γραμμής εντολών που θα περάσει στο '0install integrate'. Αφήστε το κενό για να μην κληθεί καθόλου το '0install integrate'.</value>
+    <value>{ARGUMENTS} της γραμμής εντολών που θα περάσει στο '0install integrate'. Αφήστε το μη ορισμένο για να μην κληθεί καθόλου το '0install integrate'.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
@@ -132,7 +132,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ή η διαδρομή προς το εκτελέσιμο πρότυπο εκκίνησης, ή η διαδρομή προς έναν κατάλογο που περιέχει τα αρχεία 0install.exe και zero-install.exe, από τα οποία θα γίνει αυτόματη επιλογή. Αφήστε το πεδίο κενό για λήψη από την προεπιλεγμένη τοποθεσία.</value>
+    <value>{URI} ή η διαδρομή προς το εκτελέσιμο πρότυπο εκκίνησης, ή η διαδρομή προς έναν κατάλογο που περιέχει τα αρχεία 0install.exe και zero-install.exe, από τα οποία θα γίνει αυτόματη επιλογή. Αφήστε το πεδίο κενό για λήψη από την προεπιλεγμένη θέση.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
