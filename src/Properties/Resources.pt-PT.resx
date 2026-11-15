@@ -108,7 +108,7 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Mostra a estimativa do espaço em disco {SPACE} necessário (em bytes). Define implicitamente também a opção --customizable-store-path.</value>
+    <value>Mostra o espaço em disco estimado {SPACE} necessário (em bytes). Define implicitamente também a opção --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -132,7 +132,7 @@ Pode redistribuir cópias deste programa ao abrigo dos termos da Licença Públi
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} ou o caminho para o executável do modelo de inicialização, ou o caminho para um diretório que contenha os ficheiros 0install.exe e zero-install.exe, para que a escolha seja feita automaticamente. Deixe este parâmetro por definir para efetuar o download a partir da localização predefinida.</value>
+    <value>{URI} ou o caminho para o executável do modelo de inicialização, ou o caminho para um diretório que contenha os ficheiros 0install.exe e zero-install.exe, para que a escolha seja feita automaticamente. Deixe sem definição para descarregar a partir da localização predefinida.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

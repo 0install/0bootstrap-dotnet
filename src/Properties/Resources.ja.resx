@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>特定のフィードを実行または統合するための、カスタマイズされたZero Installブートストラップを作成します。</value>
+    <value>特定のフィードを実行または統合するための、カスタマイズされたZero Installブートストラッパーをビルドします。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Zero Installの設定ファイル{0:OPTION} を特定の{1:VALUE} に設定します。Zero Installがまだデプロイされていない場合にのみ、既存の設定ファイルを上書きします。</value>
+    <value>Zero Installの設定ファイル{0:OPTION} を特定の{1:VALUE} に設定します。Zero Installがまだ展開されていない場合にのみ、既存の設定ファイルを上書きします。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
@@ -108,7 +108,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>必要なディスク容量の推定値（{SPACE} 、バイト単位）を表示します。これにより、--customizable-store-path も暗黙的に設定されます。</value>
+    <value>必要なディスク容量{SPACE} の推定値（バイト単位）を表示します。これにより、--customizable-store-pathも暗黙的に設定されます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">

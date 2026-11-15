@@ -108,7 +108,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Affiche l'{SPACE} e estimée requise sur le disque (en octets). Définit également implicitement l'option --customizable-store-path.</value>
+    <value>Affiche l'{SPACE} e estimée requise sur le disque (en octets). Définit implicitement également l'option --customizable-store-path.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
@@ -120,7 +120,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>{ARGUMENTS} s en ligne de commande à transmettre à « 0install integrate ». Ne rien définir pour ne pas appeler « 0install integrate » du tout.</value>
+    <value>{ARGUMENTS} s de ligne de commande à transmettre à « 0install integrate ». Ne rien définir pour ne pas appeler « 0install integrate » du tout.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionOutput" xml:space="preserve">
